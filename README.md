@@ -68,7 +68,7 @@
 ### 获取json格式的天气
 
 - 请求地址：http://wthrcdn.etouch.cn/weather_mini
-  - 示例:http://wthrcdn.etouch.cn/weather_mini?city=深圳
+  - 示例：http://wthrcdn.etouch.cn/weather_mini?city=深圳
 - 请求方法：get
 - 请求参数：city
 
