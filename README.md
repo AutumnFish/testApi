@@ -26,32 +26,62 @@
 |      500 | INTERNAL SERVER ERROR | 内部错误                                            |
 
 
-
-## joke
-> 笑话接口
-
-### 随机获取笑话
+## 随机获取笑话
 
 > 随机获取笑话的接口
 
 * 请求地址：https://autumnfish.cn/api/joke
 * 请求方法：get
 * 请求参数：无
-
 * 响应内容：随机笑话
 
 
 
-## hero
+## 用户验证
 
-> 英雄接口
+> 验证用户名是否可用
 
-### 英雄查询接口
+- 请求地址：https://autumnfish.cn/api/user/check
+- 请求方法：post
+- 请求参数：username
+
+| 参数名   | 参数说明 | 备注                                       |
+| :------- | :------- | :----------------------------------------- |
+| username | 用户名   | 不能为空,通过send方法传递，格式为key=value |
+
+```js
+xhr.send('username=xxx')
+```
+
+- 响应内容：该用户名是否可用
+
+## 用户注册
+
+> 注册用户
+
+- 请求地址：https://autumnfish.cn/api/user/register
+- 请求方法：post
+- 请求参数：username
+
+| 参数名   | 参数说明 | 备注                                       |
+| :------- | :------- | :----------------------------------------- |
+| username | 用户名   | 不能为空,通过send方法传递，格式为key=value |
+
+```js
+xhr.send('username=xxx')
+```
+
+- 响应内容：注册成功或失败
+
+
+
+
+## 英雄外号查询
 
 > 根据英雄 姓名 查询英雄的 外号
 
-- 请求地址：https://autumnfish.cn/api/hero
-  - 示例：https://autumnfish.cn/api/hero?name=提莫
+- 请求地址：https://autumnfish.cn/api/hero/simple
+  - 示例：https://autumnfish.cn/api/hero/simple?name=提莫
 - 请求方法：get
 - 请求参数：name
 
@@ -61,11 +91,90 @@
 
 - 响应内容：英雄的外号
 
-## 天气预报
+## 英雄简略信息查询
 
->  可以获取中国的天气，世界天气获取不到
+> 根据英雄 姓名 查询英雄的简略信息
 
-### 获取json格式的天气
+- 请求地址：https://autumnfish.cn/api/hero/info
+  - 示例：https://autumnfish.cn/api/hero/info?name=提莫
+- 请求方法：get
+- 请求参数：name
+
+| 参数名 | 参数说明 | 备注                                 |
+| :----- | :------- | :----------------------------------- |
+| name   | 英雄名   | 不能为空,直接跟在url后，格式name=xxx |
+
+- 响应内容：英雄的简略信息
+
+```json
+{
+    "title": "迅捷斥候",
+    "name": "提莫",
+    "bg": "http://img1.dwstatic.com/lol/1512/315320556654/1451366974753.jpg",
+    "icon": "http://img.dwstatic.com/lol/1310/246295394773/1382341114833.png",
+    "story": "Teemo还有个隐藏被动技能，就是长了个全球嘲讽脸。每次团战必然会被敌方坦克和刺客类英雄集火，你的工作就是要用蘑菇风筝每一个攻击你的人，保持活着，有可能的话顺便杀个人。"
+}
+```
+
+## 英雄详情查询
+
+> 根据英雄 姓名 查询英雄的 详细信息
+
+- 请求地址：https://autumnfish.cn/api/hero/detail
+  - 示例：https://autumnfish.cn/api/hero/detail?name=提莫
+- 请求方法：get
+- 请求参数：name
+
+| 参数名 | 参数说明 | 备注                                 |
+| :----- | :------- | :----------------------------------- |
+| name   | 英雄名   | 不能为空,直接跟在url后，格式name=xxx |
+
+- 响应内容：英雄的详细信息
+
+```json
+{
+    "title": "迅捷斥候",
+    "name": "提莫",
+    "bgs": [
+        "http://img1.dwstatic.com/lol/1512/315320556654/1451366974753.jpg",
+        "http://img4.dwstatic.com/lol/1512/315320556654/1451366988149.jpg",
+        "http://img2.dwstatic.com/lol/1601/317240712104/1453285617943.jpg",
+        "http://img3.dwstatic.com/lol/1601/317240712104/1453285624688.jpg",
+        "http://img3.dwstatic.com/lol/1601/317240712104/1453285633565.jpg",
+        "http://img.dwstatic.com/lol/1601/317240712104/1453285642044.jpg",
+        "http://img2.dwstatic.com/lol/1601/317240712104/1453285650321.jpg",
+        "http://img5.dwstatic.com/lol/1601/317240712104/1453285656991.jpg",
+        "http://img2.dwstatic.com/lol/1601/317240712104/1453285664288.jpg"
+    ],
+    "tags": [
+        "魔法",
+        "射手"
+    ],
+    "icons": [
+        "http://img.dwstatic.com/lol/1310/246295394773/1382341114833.png",
+        "http://img4.dwstatic.com/lol/1512/315320556654/1451366964489.jpg",
+        "http://img5.dwstatic.com/lol/1601/317240712104/1453285557655.jpg",
+        "http://img2.dwstatic.com/lol/1601/317240712104/1453285565958.jpg",
+        "http://img.dwstatic.com/lol/1601/317240712104/1453285572965.jpg",
+        "http://img.dwstatic.com/lol/1601/317240712104/1453285579908.jpg",
+        "http://img.dwstatic.com/lol/1601/317240712104/1453285586550.jpg",
+        "http://img4.dwstatic.com/lol/1601/317240712104/1453285592508.jpg",
+        "http://img2.dwstatic.com/lol/1601/317240712104/1453285599012.jpg"
+    ],
+    "ability": {
+    "life": "30",
+    "physical": "50",
+    "magic": "70",
+    "difficulty": "40"
+    },
+    "story": "Teemo还有个隐藏被动技能，就是长了个全球嘲讽脸。每次团战必然会被敌方坦克和刺客类英雄集火，你的工作就是要用蘑菇风筝每一个攻击你的人，保持活着，有可能的话顺便杀个人。"
+}
+```
+
+
+
+
+##获取json格式的天气
 
 - 请求地址：http://wthrcdn.etouch.cn/weather_mini
   - 示例：http://wthrcdn.etouch.cn/weather_mini?city=深圳
@@ -140,7 +249,7 @@
 }
 ```
 
-### 获取xml格式的天气
+## 获取xml格式的天气
 
 
 
