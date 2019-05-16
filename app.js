@@ -4,6 +4,8 @@ const express = require('express')
 const joke = require('./routers/jokeRouter')
 // 导入英雄路由
 const hero = require('./routers/heroRouter')
+// 导入用户路由
+const user = require('./routers/userRouter')
 // 导入cors允许跨域
 const cors = require('cors')
 
@@ -16,6 +18,8 @@ app.use(cors())
 app.use('/joke',joke)
 // 添加路由 - 英雄路由
 app.use('/hero',hero)
+// 添加路由 - 用户路由
+app.use('/user',user)
 
 // 开启监听
 const server = app.listen(8888,()=>{
