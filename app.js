@@ -18,7 +18,7 @@ app.use('/joke',joke)
 app.use('/hero',hero)
 
 // 开启监听
-const server = app.listen(8848,()=>{
+const server = app.listen(8888,()=>{
     // 提示信息
     console.log('success')
 })
