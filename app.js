@@ -18,7 +18,7 @@ app.use(cors())
 app.use((req,res,next)=>{
     setTimeout(() => {
         next()
-    }, 1500);
+    }, 1000);
 })
 
 // 添加路由 - 笑话路由
