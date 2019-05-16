@@ -14,6 +14,13 @@ const app = express()
 // 使用cors设置允许跨域
 app.use(cors())
 
+// 统一设置延迟
+app.use((req,res,next)=>{
+    setTimeout(() => {
+        next()
+    }, 1500);
+})
+
 // 添加路由 - 笑话路由
 app.use('/joke',joke)
 // 添加路由 - 英雄路由
