@@ -1,0 +1,24 @@
+{
+  "name": "testApi",
+  "version": "1.0.0",
+  "description": "测试用接口无需数据库，有基础数据",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AutumnFish/testApi.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AutumnFish/testApi/issues"
+  },
+  "homepage": "https://github.com/AutumnFish/testApi#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.16.4"
+  }
+}
