@@ -12,7 +12,7 @@ router.get("/", (req, res) => {
     // 读取数据并返回
     fs.readFile(path.join(__dirname,'../data/lol_details_duowan.json'),'utf-8',(err,data)=>{
         const heros = JSON.parse(data)
-        console.log(heros)
+        // console.log(heros)
         const filterHero = heros.filter(v=>{
             return v.name==req.query.name
         })
