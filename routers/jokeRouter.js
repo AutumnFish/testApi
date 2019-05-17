@@ -13,7 +13,7 @@ router.get("/", (req, res) => {
       const jokes = JSON.parse(data);
       // console.log(jokes);
       // 获取随机的索引
-      const randomIndex = parseInt(Math.random() * jokes.length);
+      let randomIndex = parseInt(Math.random() * jokes.length);
       if (randomIndex >= jokes.length - 1) {
         randomIndex = jokes.length - 1;
       }
