@@ -169,7 +169,7 @@ xhr.send('username=xxx')
 
 
 
-##获取json格式的天气
+## 获取json格式的天气
 
 - 请求地址：http://wthrcdn.etouch.cn/weather_mini
   - 示例：http://wthrcdn.etouch.cn/weather_mini?city=深圳
