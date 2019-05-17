@@ -6,6 +6,8 @@ const joke = require('./routers/jokeRouter')
 const hero = require('./routers/heroRouter')
 // 导入用户路由
 const user = require('./routers/userRouter')
+// 导入cq路由
+const cq = require('./routers/cqRouter')
 // 导入cors允许跨域
 const cors = require('cors')
 
@@ -15,21 +17,23 @@ const app = express()
 app.use(cors())
 
 // 统一设置延迟
-app.use((req,res,next)=>{
-    setTimeout(() => {
-        next()
-    }, 1000);
+app.use((req, res, next) => {
+  setTimeout(() => {
+    next()
+  }, 1000)
 })
 
 // 添加路由 - 笑话路由
-app.use('/joke',joke)
+app.use('/joke', joke)
 // 添加路由 - 英雄路由
-app.use('/hero',hero)
+app.use('/hero', hero)
 // 添加路由 - 用户路由
-app.use('/user',user)
+app.use('/user', user)
+// 添加路由 - cq路由
+app.use('/cq', cq)
 
 // 开启监听
-const server = app.listen(8888,()=>{
-    // 提示信息
-    console.log('success')
+const server = app.listen(8888, () => {
+  // 提示信息
+  console.log('success')
 })
