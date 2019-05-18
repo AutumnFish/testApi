@@ -41,7 +41,7 @@
 
 > 随机获取笑话的接口
 
-- 请求地址：https://autumnfish.cn/api/joke
+- 请求地址：https://autumnfish.cn/api/joke/list
 - 请求方法：get
 - 请求参数：num
   | 参数名 | 参数说明 | 备注 |
@@ -206,7 +206,6 @@ xhr.send('username=xxx')
 > 查询英雄的 详细信息
 
 - 请求地址：https://autumnfish.cn/api/cq
-  - 示例：https://autumnfish.cn/api/cq?query=jack
 - 请求方法：get
 - 请求参数：query，pageNum，pageSize
 
