@@ -207,20 +207,17 @@ xhr.send('username=xxx')
 
 - 请求地址：https://autumnfish.cn/api/cq
 - 请求方法：get
-- 请求参数：query，pageNum，pageSize
+- 请求参数：query
 
 | 参数名   | 参数说明 | 备注                       |
 | :------- | :------- | :------------------------- |
 | query    | 英雄名   | 可以为空，为空获取所有数据 |
-| pageNum  | 页码     | 数字                       |
-| pageSize | 页容量   | 数字                       |
 
 - 响应内容：JSON
 
 ```json
 {
   "msg": "获取成功",
-  "totalPage": 42,
   "list": [
     {
       "name": "阎罗使者桂香",
