@@ -15,7 +15,7 @@ router.get('/', (req, res) => {
     (err, data) => {
       const cq = JSON.parse(data)
       // 获取查询字符串
-      const query = req.query.query||''
+      const query = req.query.query || ''
       const filterHero = cq
         .filter(v => {
           return (
@@ -37,7 +37,7 @@ router.get('/', (req, res) => {
         })
         return
       }
-      
+
       // 获取 页容量
       const pageSize = parseInt(req.query.pageSize)
       if (isNaN(pageSize)) {
@@ -63,7 +63,7 @@ router.get('/', (req, res) => {
       }
       // 获取 数据
       let list = []
-      for(let i =startIndex;i<=endIndex;i++){
+      for (let i = startIndex; i < endIndex; i++) {
         list.push(filterHero[i])
       }
 
