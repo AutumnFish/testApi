@@ -208,33 +208,53 @@ xhr.send('username=xxx')
 - 请求地址：https://autumnfish.cn/api/cq
   - 示例：https://autumnfish.cn/api/cq?query=jack
 - 请求方法：get
-- 请求参数：query
+- 请求参数：query，pageNum，pageSize
 
-| 参数名 | 参数说明 | 备注                       |
-| :----- | :------- | :------------------------- |
-| query  | 英雄名   | 可以为空，为空获取所有数据 |
+| 参数名   | 参数说明 | 备注                       |
+| :------- | :------- | :------------------------- |
+| query    | 英雄名   | 可以为空，为空获取所有数据 |
+| pageNum  | 页码     | 数字                       |
+| pageSize | 页容量   | 数字                       |
 
 - 响应内容：JSON
 
 ```json
 {
+  "msg": "获取成功",
+  "totalPage": 42,
+  "list": [
     {
-    "msg": "获取成功",
-    "total": 206,
-    "list": [
-        {
-            "name": "丰饶女神德米特尔",
-            "icon": "http://p5.qhimg.com/dr/72__/t018014a8cbb95f7aa5.png",
-            "skill": "麦田守卫者"
-        },
-        {
-            "name": "月光女神莉莉丝",
-            "icon": "http://p7.qhimg.com/dr/72__/t010925c888cfcec511.png",
-            "skill": "黑暗噩梦"
-        }
-    ]
+      "name": "阎罗使者桂香",
+      "icon": "http://p0.qhimg.com/dr/72__/t01d483a1c02dff97d3.png",
+      "skill": "恶灵退散"
+    },
+    {
+      "name": "自然的纳兹伦",
+      "icon": "http://p7.qhimg.com/dr/72__/t01b33aca0e6daa64a4.png",
+      "skill": "狩猎律动"
+    },
+    {
+      "name": "黑桃王后爱丽丝",
+      "icon": "http://p5.qhimg.com/dr/72__/t0142106a779023b5d6.png",
+      "skill": "命运"
+    },
+    {
+      "name": "稀世怪盗路尼昂",
+      "icon": "http://p1.qhimg.com/dr/72__/t01dd39d1a917845d58.png",
+      "skill": "怪盗出现"
+    },
+    {
+      "name": "丰饶女神德米特尔",
+      "icon": "http://p5.qhimg.com/dr/72__/t018014a8cbb95f7aa5.png",
+      "skill": "麦田守卫者"
+    },
+    {
+      "name": "魔法傀儡师贝萝特",
+      "icon": "http://p4.qhimg.com/dr/72__/t0198b29952d7d17927.png",
+      "skill": "傀儡术"
+    }
+  ]
 }
-
 ```
 
 ## 获取 json 格式的天气
