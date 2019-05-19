@@ -284,6 +284,40 @@ xhr.send('username=xxx')
 }
 ```
 
+### 根据类型查询角色
+
+> 查询英雄的 详细信息
+
+- 请求地址：https://autumnfish.cn/api/cq/category
+- 请求方法：get
+- 请求参数：type
+
+| 参数名 | 参数说明 | 备注                                                  |
+| :----- | :------- | :---------------------------------------------------- |
+| type   | 英雄类型 | 不能为空，可选值有:剑士，骑士，弓手，猎人，法师，祭司 |
+
+- 响应内容：JSON
+
+```json
+{
+    "msg": "获取法师英雄数据",
+    "code": 200,
+    "data": {
+        "heros": [
+            {
+            "heroName": "黑袍魔女桃乐丝",
+            "heroIcon": "http://p4.qhimg.com/dr/72__/t015a7af93e23e5c67c.png",
+            "skillName": "奥能脉冲",
+            "skillIcon": "http://p3.qhimg.com/dr/52__/t01179c3d8588da2733.png",
+            "weaponName": "月之女王",
+            "weaponIcon": "http://p2.qhimg.com/dr/45__/t01a05a602fe8a972b8.png"
+            },
+        ]
+}
+```
+
+
+
 ### 角色技能动态图查询
 
 > 查询英雄的 详细信息
@@ -307,6 +341,32 @@ xhr.send('username=xxx')
   },
   "msg": "八神庵的技能图片获取成功",
   "code": 200
+}
+```
+
+
+
+## 随机二次元图片获取
+
+[原接口地址文档地址](http://acg.bakayun.cn/)，此接口只是整理了网上的免费接口，并把文档调整了格式
+
+* 请求地址:http://acg.bakayun.cn/randbg.php
+* 请求方法：get
+* 请求参数：Type,t,https
+
+| 参数名 | 参数说明      | 备注                                                         |
+| :----- | :------------ | :----------------------------------------------------------- |
+| Type   | 类型          | 301 = 301跳转(301 Moved Permanently)<br/> 302 = 302跳转<br/> json = JSON数据 |
+| t      | 专辑          | dfproject = 东方16:9壁纸(495张) <br/>dfzh = 东方竖图(6239张) <br/>ecyzh = 二次元综合(1991张)<br/> 不填 = 全部图片随机 |
+| https  | 是否使用https | true或者为空                                                 |
+
+- 响应内容:根据设置的结果会略有区别
+- 比如:http://acg.bakayun.cn/randbg.php?Type=json&t=dfproject 
+
+```json
+{
+    "ImgUrl": "http://img.badapple.top/东方Project/八坂神奈子/img (11).jpg",
+    "Color": "175,133,124"
 }
 ```
 
