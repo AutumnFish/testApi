@@ -254,6 +254,38 @@ xhr.send('username=xxx')
 }
 ```
 
+### 角色查询带分页
+
+> 查询英雄的 详细信息
+
+- 请求地址：https://autumnfish.cn/api/cq/page
+- 请求方法：get
+- 请求参数：query
+
+| 参数名   | 参数说明 | 备注                       |
+| :------- | :------- | :------------------------- |
+| query    | 英雄名   | 可以为空，为空表示不搜索   |
+| pageNum  | 页码     | 必填，数值                 |
+| pageSize | 页容量   | 必填，每页多少条数据，数值 |
+
+- 响应内容：JSON
+
+```js
+{
+    "msg": "获取成功",
+    "totalPage": 206,
+    "list": [
+        {
+            "name": "自然的纳兹伦",
+            "icon": "http://p7.qhimg.com/dr/72__/t01b33aca0e6daa64a4.png",
+        	"skill": "狩猎律动"
+        }
+    ]
+}
+```
+
+
+
 ## 获取 json 格式的天气
 
 - 请求地址：http://wthrcdn.etouch.cn/weather_mini
