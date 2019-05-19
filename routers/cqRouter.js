@@ -77,7 +77,6 @@ router.get('/page', (req, res) => {
 // 数据查询
 router.get('/', (req, res) => {
   // 参数判断
-
   // 读取数据并返回
   fs.readFile(
     path.join(__dirname, '../data/cqList.json'),
@@ -101,45 +100,94 @@ router.get('/', (req, res) => {
         })
       res.send({
         msg: '获取成功',
-        list:filterHero
+        list: filterHero
       })
+    }
+  )
+})
+// 根据不同的类型获取对应的英雄
+router.get('/category', (req, res) => {
+  if (!req.query.type) {
+    res.send({
+      msg: '请传递type',
+      code: 400
+    })
+    return
+  }
+  fs.readFile(
+    path.join(__dirname, '../data/cqList.json'),
+    'utf-8',
+    (err, data) => {
+      const cq = JSON.parse(data)
+      const filterHero = cq
+        .filter(v => {
+          return v.type == req.query.type
+        })
+        .map(v => {
+          return {
+            heroName: v.heroName,
+            heroIcon: v.heroIcon,
+            skillName: v.skillName,
+            skillIcon: v.skillIcon,
+            weaponName: v.weaponName,
+            weaponIcon: v.weaponIcon
+          }
+        })
+      if (filterHero.length == 0) {
+        res.send({
+          msg: 'type的值不对，请正确输入',
+          code: 400
+        })
+      } else {
+        res.send({
+          msg: `获取${req.query.type}英雄数据`,
+          code: 200,
+          data: {
+            heros: filterHero
+          }
+        })
+      }
     }
   )
 })
 // 获取gif图
 // 传英雄名过来
-router.get('/gif',(req,res)=>{
-  if(!req.query.name){
+router.get('/gif', (req, res) => {
+  if (!req.query.name) {
     res.send({
-      msg:"请正确传递参数",
-      code:400
+      msg: '请正确传递参数',
+      code: 400
     })
-    return;
+    return
   }
-  fs.readFile(path.join(__dirname,'../data/cqList.json'),'utf-8',(err,data)=>{
-    const cq = JSON.parse(data)
-    // 判断数据
-    const filterOne = cq.filter(v=>{
-      if(v.heroName==req.query.name){
-        return true
+  fs.readFile(
+    path.join(__dirname, '../data/cqList.json'),
+    'utf-8',
+    (err, data) => {
+      const cq = JSON.parse(data)
+      // 判断数据
+      const filterOne = cq.filter(v => {
+        if (v.heroName == req.query.name) {
+          return true
+        }
+      })
+      if (filterOne == 0) {
+        res.send({
+          msg: '查询的英雄不存在哦，检查一下',
+          code: 400
+        })
+      } else {
+        res.send({
+          data: {
+            skillGif: filterOne[0].skillGif,
+            heroName: req.query.name
+          },
+          msg: `${req.query.name}的技能图片获取成功`,
+          code: 200
+        })
       }
-    })
-    if(filterOne==0){
-      res.send({
-        msg:'查询的英雄不存在哦，检查一下',
-        code:400
-      })
-    }else{
-      res.send({
-        data:{
-          skillGif:filterOne[0].skillGif,
-          heroName:req.query.name
-        },
-        msg:`${req.query.name}的技能图片获取成功`,
-        code:200
-      })
     }
-  })
+  )
 })
 
 // 暴露出去

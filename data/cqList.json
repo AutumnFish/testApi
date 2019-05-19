@@ -6,6 +6,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t01d9f0e844bfceba9e.png",
     "weaponName": "圣剑Excalibur",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t0150fdd033c28283c2.png",
+    "type": "剑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01662bf21f01d2e259.gif"
   },
   {
@@ -15,6 +16,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t01b5035998001a2617.png",
     "weaponName": "蹑影追风剑",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t013653b2a9f0316005.png",
+    "type": "剑士",
     "skillGif": "http://p6.qhimg.com/dr/340__/t01141bfacb29f35f65.gif"
   },
   {
@@ -24,6 +26,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t01814423e6a7f26f1c.png",
     "weaponName": "轮转胜利之剑",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t015689bb6ec7b8feea.png",
+    "type": "剑士",
     "skillGif": "http://p7.qhimg.com/dr/340__/t0161af412de17641d7.gif"
   },
   {
@@ -33,6 +36,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t01102514705810e98b.png",
     "weaponName": "冥刀胧村正",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t012db16fa39dd77c2b.png",
+    "type": "剑士",
     "skillGif": "http://p9.qhimg.com/dr/340__/t015bbf9cae32d4c617.gif"
   },
   {
@@ -42,6 +46,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t01059f32c0ae3341d9.png",
     "weaponName": "绝对魔剑巴洛克",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t01c5fae6ecc801158b.png",
+    "type": "剑士",
     "skillGif": "http://p1.qhimg.com/dr/340__/t01776d7af6bc722479.gif"
   },
   {
@@ -51,6 +56,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t015519f1c9c354d256.png",
     "weaponName": "天行者光剑",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01bdcd6038e375305f.png",
+    "type": "剑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01f49e0280d66c1a13.gif"
   },
   {
@@ -60,6 +66,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t0143f7de0a6cbac785.png",
     "weaponName": "逸刀月影",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t01a41386d70f1f5c06.png",
+    "type": "剑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t014b61bb4fcf04b680.gif"
   },
   {
@@ -69,6 +76,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t018dc7a896f3dca297.png",
     "weaponName": "没落之剑",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t013f9e5ef06fda0926.png",
+    "type": "剑士",
     "skillGif": "http://p6.qhimg.com/dr/340__/t0147cc048d6ddf5942.gif"
   },
   {
@@ -78,6 +86,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t014ac42affe39014be.png",
     "weaponName": "神骨之剑",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01f91b5100b00521e9.png",
+    "type": "剑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t011121044f96626559.gif"
   },
   {
@@ -87,6 +96,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01bc548e06dd209051.png",
     "weaponName": "黑虎神剑",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t012bcc5aa607fa6382.png",
+    "type": "剑士",
     "skillGif": "http://p8.qhimg.com/dr/340__/t0199b5977bbe332a5a.gif"
   },
   {
@@ -96,6 +106,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01e277ef554aa09d36.png",
     "weaponName": "恶魔之眼",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01cf466af058a31dd9.png",
+    "type": "剑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01447e6b59d227899b.gif"
   },
   {
@@ -105,6 +116,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01f9dcc866aed781cd.png",
     "weaponName": "真倚天剑",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t017109ee4c480d952a.png",
+    "type": "剑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t019323a50e351a0493.gif"
   },
   {
@@ -114,6 +126,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01b626886090d8969d.png",
     "weaponName": "战场的约定",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t018b6f889e1e743e06.png",
+    "type": "剑士",
     "skillGif": "http://p6.qhimg.com/dr/340__/t01bc974642bb089c15.gif"
   },
   {
@@ -123,6 +136,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t011d231e46446680ce.png",
     "weaponName": "漆黑之路标",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t015e9e943c80fb9fb3.png",
+    "type": "剑士",
     "skillGif": "http://p4.qhimg.com/dr/340__/t0184ba51241e379c11.gif"
   },
   {
@@ -132,6 +146,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t01110db38a14d5c2db.png",
     "weaponName": "苍白玫瑰",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t012cdf926027e8dce1.png",
+    "type": "剑士",
     "skillGif": "http://p9.qhimg.com/dr/340__/t0161240e5c9d5228cf.gif"
   },
   {
@@ -141,6 +156,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t012f2a1f86de699311.png",
     "weaponName": "封炎剑",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01019235b4d617ed47.png",
+    "type": "剑士",
     "skillGif": "http://p5.qhimg.com/dr/340__/t016f0a535fae859292.gif"
   },
   {
@@ -150,6 +166,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t01b5049daf32c9fa13.png",
     "weaponName": "封雷剑",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01c8983959b74690ad.png",
+    "type": "剑士",
     "skillGif": "http://p6.qhimg.com/dr/340__/t019ffd4c41982d3085.gif"
   },
   {
@@ -159,6 +176,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t015bd56341796383ff.png",
     "weaponName": "乾坤螺旋剑",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t012f2a7dcbc9aeda4b.png",
+    "type": "剑士",
     "skillGif": "http://p6.qhimg.com/dr/340__/t0174c3e154d1195854.gif"
   },
   {
@@ -168,6 +186,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01131552d2c4869fae.png",
     "weaponName": "剑龙",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t01569edc299e8840b5.png",
+    "type": "剑士",
     "skillGif": "http://p9.qhimg.com/dr/340__/t0120b125e9fb68fefa.gif"
   },
   {
@@ -177,6 +196,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01fab18ca6c89a0461.png",
     "weaponName": "头发",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t01ba883626a1bf3379.png",
+    "type": "剑士",
     "skillGif": "http://p4.qhimg.com/dr/340__/t014f7f2f55dbd491b5.gif"
   },
   {
@@ -186,6 +206,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t013ac9fcd2f9614a2a.png",
     "weaponName": "七星龙渊剑",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01e4ac18e4d3818f71.png",
+    "type": "剑士",
     "skillGif": "http://p7.qhimg.com/dr/340__/t01e9ac93bd1ff886dd.gif"
   },
   {
@@ -195,6 +216,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t0168d117f4c933a15d.png",
     "weaponName": "黑暗帝王之剑",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t01f780137c08d246de.png",
+    "type": "剑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01443a5f7b50cd94a0.gif"
   },
   {
@@ -204,6 +226,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t018ac068cdb86be50f.png",
     "weaponName": "草薙京的剑",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t01d13f416e30b3280d.png",
+    "type": "剑士",
     "skillGif": "http://p8.qhimg.com/dr/340__/t01682548439bb0da6f.gif"
   },
   {
@@ -213,6 +236,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t017f0e96e48d32195e.png",
     "weaponName": "八尺琼勾玉",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t01fbd308749c25d9f8.png",
+    "type": "剑士",
     "skillGif": "http://p7.qhimg.com/dr/340__/t019779314457e6a37d.gif"
   },
   {
@@ -222,6 +246,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t015fb9031f60fd18c6.png",
     "weaponName": "爆破电钮",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t0149aa5c1720a9cf8c.png",
+    "type": "剑士",
     "skillGif": "http://p8.qhimg.com/dr/340__/t01139e2fa700df8f8b.gif"
   },
   {
@@ -231,6 +256,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01ef58aec0a084f685.png",
     "weaponName": "蛇魔的火花",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01208771cafbe80891.png",
+    "type": "剑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t0191e89e51103ccdff.gif"
   },
   {
@@ -240,6 +266,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01b77c20e9a078618e.png",
     "weaponName": "柳叶白菀",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t01f9705b27509eaf65.png",
+    "type": "剑士",
     "skillGif": "http://p8.qhimg.com/dr/340__/t01898462bc5f399f67.gif"
   },
   {
@@ -249,6 +276,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t0110a121ba9ab488a9.png",
     "weaponName": "跃影飞绫",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t0115aead2fe28886f9.png",
+    "type": "剑士",
     "skillGif": "http://p4.qhimg.com/dr/340__/t01c6fd859e4418c811.gif"
   },
   {
@@ -258,6 +286,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t01c3bd5fd983a85629.png",
     "weaponName": "巴里萨尔达",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01149908d27f271f60.png",
+    "type": "剑士",
     "skillGif": "http://p7.qhimg.com/dr/340__/t01bf78cba2d9050075.gif"
   },
   {
@@ -267,6 +296,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t01223f309535aad3b8.png",
     "weaponName": "愤怒的祭礼",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t01a81b666a11951706.png",
+    "type": "剑士",
     "skillGif": "http://p4.qhimg.com/dr/340__/t016d20ce8b577e0934.gif"
   },
   {
@@ -276,6 +306,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t01d596fe9fa27369fb.png",
     "weaponName": "屠夫的爪子",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01dc3f7b84f3f1ac60.png",
+    "type": "剑士",
     "skillGif": "http://p8.qhimg.com/dr/340__/t01efd2927be41289d9.gif"
   },
   {
@@ -285,6 +316,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t015201d9d853fd8cf5.png",
     "weaponName": "天剑-亥伯龙神",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t0117c30d755c1f074f.png",
+    "type": "剑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t017d6cb22c542abb6f.gif"
   },
   {
@@ -294,6 +326,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t0107677c3bbf6b8106.png",
     "weaponName": "宝剑-墨丘利",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t0143a2c8fb3c85619d.png",
+    "type": "剑士",
     "skillGif": "http://p5.qhimg.com/dr/340__/t0155a1123da0e801ce.gif"
   },
   {
@@ -303,6 +336,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t01a484f8bc0a2b238e.png",
     "weaponName": "灵环-瑟蕾丝蒂亚",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t019e940429147941ee.png",
+    "type": "剑士",
     "skillGif": "http://p5.qhimg.com/dr/340__/t01ec3670276c08a33a.gif"
   },
   {
@@ -312,6 +346,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t0196050ceb44130fde.png",
     "weaponName": "樱花",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t010e45f8d0a44fc040.png",
+    "type": "剑士",
     "skillGif": "http://p7.qhimg.com/dr/340__/t016f5fc56f5d5d37d6.gif"
   },
   {
@@ -321,6 +356,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t019d2220630f6feb58.png",
     "weaponName": "胜利大剑",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t017160e31c23ab50c8.png",
+    "type": "剑士",
     "skillGif": "http://p3.qhimg.com/dr/340__/t01fad0fd79747b0c69.gif"
   },
   {
@@ -330,6 +366,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t016b611091806fb184.png",
     "weaponName": "颇尔垃加",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t018e53cd8505e426d8.png",
+    "type": "剑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t011feffc6b7852c7c6.gif"
   },
   {
@@ -339,6 +376,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t011d92227113d16cd1.png",
     "weaponName": "耶梦加得",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t015de39cef0f3f2ae2.png",
+    "type": "剑士",
     "skillGif": "http://p7.qhimg.com/dr/340__/t01513f89e3b2f40488.gif"
   },
   {
@@ -348,6 +386,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t01970d26d5dda0701c.png",
     "weaponName": "钝刀",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01f8659a41523a2dbb.png",
+    "type": "剑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01be0150920e8dda03.gif"
   },
   {
@@ -357,6 +396,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01ebc17ad82ff76af4.png",
     "weaponName": "盾牌终结者",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t014ac9f6c9e8c8a0fc.png",
+    "type": "剑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t013fccfa47baefd90b.gif"
   },
   {
@@ -366,6 +406,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t01dd7e69e19fb0a69b.png",
     "weaponName": "布拉达曼特",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t0118b4f2f005227cf3.png",
+    "type": "剑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t010a5b20e04823e209.gif"
   },
   {
@@ -375,6 +416,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t01f5bc4da883a38aeb.png",
     "weaponName": "库珥修之剑",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t01188a2390d92f8a1d.png",
+    "type": "剑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t0193b31dfcc6277125.gif"
   },
   {
@@ -384,6 +426,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t01f8356f7c634b0c87.png",
     "weaponName": "引路人",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t01622bd0bfe3ed7c20.png",
+    "type": "剑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01c42e07f37a60990e.gif"
   },
   {
@@ -393,6 +436,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01751af74f322ffcaf.png",
     "weaponName": "冰霜守护者轻剑",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t01d8444d29500b43b5.png",
+    "type": "剑士",
     "skillGif": "http://p4.qhimg.com/dr/340__/t01ca3a44779dba5bf8.gif"
   },
   {
@@ -402,6 +446,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t01eb3335a7a0a018fd.png",
     "weaponName": "虐杀的巴尔蒙克",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t011cb61304d495ac9a.png",
+    "type": "骑士",
     "skillGif": "http://p3.qhimg.com/dr/340__/t01da7021f9eb45b982.gif"
   },
   {
@@ -411,6 +456,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01851544429f4bacb5.png",
     "weaponName": "耀眼之光",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t018da41918b03846f8.png",
+    "type": "骑士",
     "skillGif": "http://p3.qhimg.com/dr/340__/t01251418936ba10b25.gif"
   },
   {
@@ -420,6 +466,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01d7e7eefc84a4c76e.png",
     "weaponName": "雷神之锤",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01940710686ac55a58.png",
+    "type": "骑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01164bb4764a3d9231.gif"
   },
   {
@@ -429,6 +476,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t012101673f7576f29f.png",
     "weaponName": "权利的游戏",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01cf302943ec691887.png",
+    "type": "骑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01a03e88d2b9590324.gif"
   },
   {
@@ -438,6 +486,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t0111cfd9c4db47159c.png",
     "weaponName": "永恒灭霸",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t01b2c38ffed02e5b6f.png",
+    "type": "骑士",
     "skillGif": "http://p9.qhimg.com/dr/340__/t0189e256dd262d32c3.gif"
   },
   {
@@ -447,6 +496,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t0189f263cb7c6a32b7.png",
     "weaponName": "世界树之桨",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t01d1f48604c5a3b45d.png",
+    "type": "骑士",
     "skillGif": "http://p8.qhimg.com/dr/340__/t0165d935c44772c36a.gif"
   },
   {
@@ -456,6 +506,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t0104f2d5135ed5ca40.png",
     "weaponName": "绝灭的开膛手之斧",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t0194249899ff6fef20.png",
+    "type": "骑士",
     "skillGif": "http://p8.qhimg.com/dr/340__/t015a535c756b3bc32c.gif"
   },
   {
@@ -465,6 +516,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t012d89eaf5401d8d47.png",
     "weaponName": "灿然辉耀的王斧",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t011bf7fb7d39c593b5.png",
+    "type": "骑士",
     "skillGif": "http://p6.qhimg.com/dr/340__/t017144a27aed94fbcc.gif"
   },
   {
@@ -474,6 +526,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t01bc64dcd1e3c7e731.png",
     "weaponName": "旋风粉碎之锤",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t0174bce6c8c4ddb55d.png",
+    "type": "骑士",
     "skillGif": "http://p5.qhimg.com/dr/340__/t010715844737833195.gif"
   },
   {
@@ -483,6 +536,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t0127ab449e975928ba.png",
     "weaponName": "无极神枪",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t013614522c83b5927a.png",
+    "type": "骑士",
     "skillGif": "http://p4.qhimg.com/dr/340__/t013c7570d7da782519.gif"
   },
   {
@@ -492,6 +546,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t0167e0f470057bef5d.png",
     "weaponName": "光束粉碎机",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t0112053dfd93efd627.png",
+    "type": "骑士",
     "skillGif": "http://p1.qhimg.com/dr/340__/t01184c7ba7b63544a3.gif"
   },
   {
@@ -501,6 +556,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t012b7ffa1da3332255.png",
     "weaponName": "万槿花",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t01af481f1441626ca5.png",
+    "type": "骑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01867e486ba1436c1f.gif"
   },
   {
@@ -510,6 +566,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t01d2afa75d2244b3c9.png",
     "weaponName": "长枪方阵",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t01b8bb9ce7ab7f9729.png",
+    "type": "骑士",
     "skillGif": "http://p3.qhimg.com/dr/340__/t01715696efec871420.gif"
   },
   {
@@ -519,6 +576,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t0121f755ebc327cb65.png",
     "weaponName": "战争之神的保佑",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t010b4a4bcdd29e540d.png",
+    "type": "骑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t0106d01a6b72c1397a.gif"
   },
   {
@@ -528,6 +586,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t015e135d2290f50ef3.png",
     "weaponName": "玄武守护之枪",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t0179a7cd1d3f0c072a.png",
+    "type": "骑士",
     "skillGif": "http://p1.qhimg.com/dr/340__/t010e6af7dabb92cd92.gif"
   },
   {
@@ -537,6 +596,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t017fd00818d3e6d6f7.png",
     "weaponName": "波西米亚",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01ce2f4b29efcffe8c.png",
+    "type": "骑士",
     "skillGif": "http://p9.qhimg.com/dr/340__/t011a75e3834cf65bb4.gif"
   },
   {
@@ -546,6 +606,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t013a2982b1943088d3.png",
     "weaponName": "法夫纳之链",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01fbb9b115f29a462c.png",
+    "type": "骑士",
     "skillGif": "http://p9.qhimg.com/dr/340__/t0161ad6ff3533cd5f3.gif"
   },
   {
@@ -555,6 +616,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t01f197e59a6feb29d6.png",
     "weaponName": "天堂破坏者",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t0173841bd5ba81754a.png",
+    "type": "骑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t0171f393160e32b77a.gif"
   },
   {
@@ -564,6 +626,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t018b00d92cfadc84e0.png",
     "weaponName": "旗",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t01bc483c78b66220de.png",
+    "type": "骑士",
     "skillGif": "http://p7.qhimg.com/dr/340__/t01b42bba08f288ca7c.gif"
   },
   {
@@ -573,6 +636,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t0108be90cd42075e10.png",
     "weaponName": "正义之戟",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t012a393de0efd1cf3f.png",
+    "type": "骑士",
     "skillGif": "http://p6.qhimg.com/dr/340__/t0165e2092322eede99.gif"
   },
   {
@@ -582,6 +646,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t012ad0aa0624ca936d.png",
     "weaponName": "北风",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01948ac12b87c23fcd.png",
+    "type": "骑士",
     "skillGif": "http://p3.qhimg.com/dr/340__/t010a8bb573ebf05741.gif"
   },
   {
@@ -591,6 +656,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t010fc6a5f8de1e7223.png",
     "weaponName": "三节棍",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t0152895a7fceee4f26.png",
+    "type": "骑士",
     "skillGif": "http://p7.qhimg.com/dr/340__/t01117f852cb816d238.gif"
   },
   {
@@ -600,6 +666,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t0111954b4ec00a0eaf.png",
     "weaponName": "手套",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t019cba0ec64616550f.png",
+    "type": "骑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t014cc3345109b33e60.gif"
   },
   {
@@ -609,6 +676,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t01df64046e0c0036d8.png",
     "weaponName": "父亲的遗物",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01ee4a193c8b65e677.png",
+    "type": "骑士",
     "skillGif": "http://p6.qhimg.com/dr/340__/t01cef7147a751acb20.gif"
   },
   {
@@ -618,6 +686,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t019cce77d5a111f7ea.png",
     "weaponName": "灰烬天堂",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t017fe9ae6118248ad1.png",
+    "type": "骑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01dd702f02daa0f8d0.gif"
   },
   {
@@ -627,6 +696,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01d2167971ec20d6ed.png",
     "weaponName": "倾诉与聆听",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01d262ebfca6bf77de.png",
+    "type": "骑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t018458f3c788ff2cad.gif"
   },
   {
@@ -636,6 +706,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t014dd455aaf2018931.png",
     "weaponName": "拉格纳洛克",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t01f9d23fecabb877b7.png",
+    "type": "骑士",
     "skillGif": "http://p6.qhimg.com/dr/340__/t01ed074cbfc90bc257.gif"
   },
   {
@@ -645,6 +716,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t01285892927d25f4ee.png",
     "weaponName": "御厨炒锅",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t017efd7e7fe2d4eaf3.png",
+    "type": "骑士",
     "skillGif": "http://p4.qhimg.com/dr/340__/t012e00488648ba01de.gif"
   },
   {
@@ -654,6 +726,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t010749b22714bbe5c5.png",
     "weaponName": "铁匠的骄傲",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t01306b0f808d15f645.png",
+    "type": "骑士",
     "skillGif": "http://p9.qhimg.com/dr/340__/t013e03088666bccf2c.gif"
   },
   {
@@ -663,6 +736,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t0194282c7ca9f035ee.png",
     "weaponName": "王斧-利维坦",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t016cb004bfc82dcfbe.png",
+    "type": "骑士",
     "skillGif": "http://p3.qhimg.com/dr/340__/t010efa2b93e9610923.gif"
   },
   {
@@ -672,6 +746,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t0154023c1e4e354105.png",
     "weaponName": "雷棍-建御雷神",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t013f207aada0caaf0e.png",
+    "type": "骑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01c1279ddcb88f873d.gif"
   },
   {
@@ -681,6 +756,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t014b912b9a92d5f8de.png",
     "weaponName": "虎头湛金枪",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t01f88a0487d159fbff.png",
+    "type": "骑士",
     "skillGif": "http://p3.qhimg.com/dr/340__/t01d3c2f99f28f83e6a.gif"
   },
   {
@@ -690,6 +766,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t019263fc2699a42fe2.png",
     "weaponName": "冰霜守护者之斧",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t0163c0436ca15c649b.png",
+    "type": "骑士",
     "skillGif": "http://p4.qhimg.com/dr/340__/t013d5efd15763134d4.gif"
   },
   {
@@ -699,6 +776,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t01d058ee06b623f032.png",
     "weaponName": "尤娜之心",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01efc4804f8346795e.png",
+    "type": "骑士",
     "skillGif": "http://p6.qhimg.com/dr/340__/t0123852a7456fe19f5.gif"
   },
   {
@@ -708,6 +786,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01902adaf4fea3c6aa.png",
     "weaponName": "英勇的象征",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01dc6f56ad0ba121b5.png",
+    "type": "骑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01653a48ace3163d91.gif"
   },
   {
@@ -717,6 +796,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01db75a32811e26b04.png",
     "weaponName": "流星锤（蕾姆）",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t01016ef187180c68a8.png",
+    "type": "骑士",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01fe2eecb544b0dc2f.gif"
   },
   {
@@ -726,6 +806,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t0173dc90429becf94a.png",
     "weaponName": "冈格尼尔",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t01c034862a19a8b457.png",
+    "type": "骑士",
     "skillGif": "http://p2.qhimg.com/dr/340__/t015479255ce8c82f54.gif"
   },
   {
@@ -735,6 +816,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01c3803f1f3bbf7eff.png",
     "weaponName": "魔弓格雷纳尔",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t0140b0b2e9af012c45.png",
+    "type": "弓手",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01f68d3a3bacc1bd9b.gif"
   },
   {
@@ -744,6 +826,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t011e80b427881c8893.png",
     "weaponName": "地狱火花",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01fc81f7ae455f3a5a.png",
+    "type": "弓手",
     "skillGif": "http://p4.qhimg.com/dr/340__/t014795907b5b1faf08.gif"
   },
   {
@@ -753,6 +836,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01de79910d889a2081.png",
     "weaponName": "史矛革之弓",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t01f2906d015a799136.png",
+    "type": "弓手",
     "skillGif": "http://p7.qhimg.com/dr/340__/t014b9a60106f2ee40b.gif"
   },
   {
@@ -762,6 +846,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t01c47832bbadcf8e43.png",
     "weaponName": "风林火山",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t0127e06b5eafda1d35.png",
+    "type": "弓手",
     "skillGif": "http://p3.qhimg.com/dr/340__/t01fdd284ca7c651915.gif"
   },
   {
@@ -771,6 +856,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t0166e9163a154b6873.png",
     "weaponName": "格里博的正义",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t016af471900c030330.png",
+    "type": "弓手",
     "skillGif": "http://p2.qhimg.com/dr/340__/t015e872bb9f4ca3123.gif"
   },
   {
@@ -780,6 +866,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t01e4fe70164ad67594.png",
     "weaponName": "零式飞翼",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t01e27354e200dc3551.png",
+    "type": "弓手",
     "skillGif": "http://p3.qhimg.com/dr/340__/t015cf39fc42873ecf9.gif"
   },
   {
@@ -789,6 +876,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t012f50aeed7dd176a4.png",
     "weaponName": "威风凛凛",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t013847c07e7328b9fa.png",
+    "type": "弓手",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01bf96a2ea42ba7570.gif"
   },
   {
@@ -798,6 +886,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t0111fb5b6a0069ecab.png",
     "weaponName": "世界树之弓",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t019b05cd138ff98bec.png",
+    "type": "弓手",
     "skillGif": "http://p5.qhimg.com/dr/340__/t017f2e6b25d28b66e0.gif"
   },
   {
@@ -807,6 +896,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t014264b08dfbb2993f.png",
     "weaponName": "寒霜魔弓",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01d4270ff059286c5b.png",
+    "type": "弓手",
     "skillGif": "http://p3.qhimg.com/dr/340__/t01b8abe2e9652a8ea1.gif"
   },
   {
@@ -816,6 +906,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t016c4cd0388a546b83.png",
     "weaponName": "皇龙神弓",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t018f77855fbdc81932.png",
+    "type": "弓手",
     "skillGif": "http://p7.qhimg.com/dr/340__/t01f591313923941ba6.gif"
   },
   {
@@ -825,6 +916,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t014cb7289182d5c492.png",
     "weaponName": "精灵王之弓",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t0108f391fc98130b10.png",
+    "type": "弓手",
     "skillGif": "http://p5.qhimg.com/dr/340__/t0171da950d8933e98d.gif"
   },
   {
@@ -834,6 +926,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t012db53eedc1f73eb7.png",
     "weaponName": "天月",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t016bb452fd3caf94ba.png",
+    "type": "弓手",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01c6b457b919bf4794.gif"
   },
   {
@@ -843,6 +936,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t012f31b0ff2a19f49b.png",
     "weaponName": "仙女莱纳斯",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t013b4d1ca2256b4faa.png",
+    "type": "弓手",
     "skillGif": "http://p4.qhimg.com/dr/340__/t0129f4639213346efd.gif"
   },
   {
@@ -852,6 +946,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t019110e3fa5776d065.png",
     "weaponName": "蛇之凯-9",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t01934845458f571c17.png",
+    "type": "弓手",
     "skillGif": "http://p5.qhimg.com/dr/340__/t011edf80d9b15ec404.gif"
   },
   {
@@ -861,6 +956,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t01ca144fb87b82c585.png",
     "weaponName": "百花盛开",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01778796fc02d9b9f9.png",
+    "type": "弓手",
     "skillGif": "http://p0.qhimg.com/dr/340__/t014d71a4fef59800d6.gif"
   },
   {
@@ -870,6 +966,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t0167c483c825273388.png",
     "weaponName": "焰火天狱弓",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t0108831a663ce4ae91.png",
+    "type": "弓手",
     "skillGif": "http://p6.qhimg.com/dr/340__/t0194bd228e48180de4.gif"
   },
   {
@@ -879,6 +976,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01ffb2b7365b38b63e.png",
     "weaponName": "苦无",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t010c82f19ce1953970.png",
+    "type": "弓手",
     "skillGif": "http://p4.qhimg.com/dr/340__/t01908df4a6e4ac9670.gif"
   },
   {
@@ -888,6 +986,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t01ceefd5d86fe6cc7a.png",
     "weaponName": "弓之遗产",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t01b576592fcfe1a0ad.png",
+    "type": "弓手",
     "skillGif": "http://p4.qhimg.com/dr/340__/t01163171fa06bcf66e.gif"
   },
   {
@@ -897,6 +996,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t015cf840f87ad02d88.png",
     "weaponName": "羽之灵魂",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t010dc3f44eab121dae.png",
+    "type": "弓手",
     "skillGif": "http://p4.qhimg.com/dr/340__/t01c4880e05461581fa.gif"
   },
   {
@@ -906,6 +1006,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t01f31dd768567f4c31.png",
     "weaponName": "樱之春恋",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01d75ffafbd930328d.png",
+    "type": "弓手",
     "skillGif": "http://p6.qhimg.com/dr/340__/t01debb48a1d2b3b6d2.gif"
   },
   {
@@ -915,6 +1016,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t011e8c94abbdabf207.png",
     "weaponName": "花蝶扇",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t010b38e1f58436f51c.png",
+    "type": "弓手",
     "skillGif": "http://p6.qhimg.com/dr/340__/t010f1bc424d6cac6be.gif"
   },
   {
@@ -924,6 +1026,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t016c159c958ed99226.png",
     "weaponName": "尼克沃斯",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01e90901f7c40d5fc2.png",
+    "type": "弓手",
     "skillGif": "http://p4.qhimg.com/dr/340__/t0199033896d6526fa4.gif"
   },
   {
@@ -933,6 +1036,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t018f740d5ca2e88907.png",
     "weaponName": "逝者遗物",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t019aad89c376c00459.png",
+    "type": "弓手",
     "skillGif": "http://p9.qhimg.com/dr/340__/t0107cdfe264726e224.gif"
   },
   {
@@ -942,6 +1046,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t013a8f08692020d0c4.png",
     "weaponName": "五虎大将军之弓",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t01c0610c619307caa8.png",
+    "type": "弓手",
     "skillGif": "http://p5.qhimg.com/dr/340__/t016f73b1df3442cf78.gif"
   },
   {
@@ -951,6 +1056,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t0108e29128c6fd31f8.png",
     "weaponName": "魔力追击者",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t01441bcc7e67e4a9e6.png",
+    "type": "弓手",
     "skillGif": "http://p9.qhimg.com/dr/340__/t014974b9a382e3b167.gif"
   },
   {
@@ -960,6 +1066,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t013e0e28a318fdc30e.png",
     "weaponName": "伟大的父亲之弓",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01a2986c5a2d2060ae.png",
+    "type": "弓手",
     "skillGif": "http://p7.qhimg.com/dr/340__/t013decdc97875d32c3.gif"
   },
   {
@@ -969,6 +1076,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t01512e84d4afdd3f06.png",
     "weaponName": "暴食者",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01d68b6b03ed07bb41.png",
+    "type": "弓手",
     "skillGif": "http://p1.qhimg.com/dr/340__/t01182edd74dcafe0cd.gif"
   },
   {
@@ -978,6 +1086,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01d870483c4162099e.png",
     "weaponName": "爆炸弓",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t015fc560d98d085260.png",
+    "type": "弓手",
     "skillGif": "http://p6.qhimg.com/dr/340__/t01ba1d542fa4a9f307.gif"
   },
   {
@@ -987,6 +1096,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01f7963994fb28ec2c.png",
     "weaponName": "神女的意志",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01ebde47c620b21c4a.png",
+    "type": "弓手",
     "skillGif": "http://p8.qhimg.com/dr/340__/t015e0708977e940796.gif"
   },
   {
@@ -996,6 +1106,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t01569e1db39d3f3270.png",
     "weaponName": "和平行者",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t0192efb1b9f97cfed3.png",
+    "type": "猎人",
     "skillGif": "http://p5.qhimg.com/dr/340__/t0120d32e56b5c3de67.gif"
   },
   {
@@ -1005,6 +1116,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t01d55fd349fe427aa3.png",
     "weaponName": "发光的黑暗",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t011a4cf42ffc8bff36.png",
+    "type": "猎人",
     "skillGif": "http://p1.qhimg.com/dr/340__/t01d6d45eb04c0f4fde.gif"
   },
   {
@@ -1014,6 +1126,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t016bad5efb8bb2142f.png",
     "weaponName": "性感手枪",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t0135164c41c4d59492.png",
+    "type": "猎人",
     "skillGif": "http://p9.qhimg.com/dr/340__/t01790cf189e336bc3b.gif"
   },
   {
@@ -1023,6 +1136,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t0127f3f376cfdde61d.png",
     "weaponName": "终结者",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t015453fab4a5e26250.png",
+    "type": "猎人",
     "skillGif": "http://p4.qhimg.com/dr/340__/t015fc328daf7ceb2f7.gif"
   },
   {
@@ -1032,6 +1146,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t013f69c93c8bc156b3.png",
     "weaponName": "合金装备",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t0102bf712629219b25.png",
+    "type": "猎人",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01076f98f58bd60830.gif"
   },
   {
@@ -1041,6 +1156,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t016b840c11817c0dfe.png",
     "weaponName": "息止安所",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01dda6d5f50e69da5b.png",
+    "type": "猎人",
     "skillGif": "http://p3.qhimg.com/dr/340__/t0158bc11255c60d26f.gif"
   },
   {
@@ -1050,6 +1166,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t018a1d7b5078a9d572.png",
     "weaponName": "行刑者",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01a7467eb102b2680c.png",
+    "type": "猎人",
     "skillGif": "http://p4.qhimg.com/dr/340__/t017628ac42c4fa03f4.gif"
   },
   {
@@ -1059,6 +1176,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t01d0aa35845f0ea540.png",
     "weaponName": "扎米尔之吻",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t014b70fa6475224773.png",
+    "type": "猎人",
     "skillGif": "http://p1.qhimg.com/dr/340__/t01ca707d24fec011fa.gif"
   },
   {
@@ -1068,6 +1186,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t0181dea10e3835caf2.png",
     "weaponName": "超时空电磁炮",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01ab83675da4ca5ef7.png",
+    "type": "猎人",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01922059fd25ee68dc.gif"
   },
   {
@@ -1077,6 +1196,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t01266d2cd7049ebbe1.png",
     "weaponName": "银光枪",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t01ace7897c2becd65c.png",
+    "type": "猎人",
     "skillGif": "http://p9.qhimg.com/dr/340__/t01bfca54a665702e75.gif"
   },
   {
@@ -1086,6 +1206,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t0143c1e7a0248ae165.png",
     "weaponName": "屠魔枪",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01db3a0cdb71ecfe8a.png",
+    "type": "猎人",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01e31295c887dcb7af.gif"
   },
   {
@@ -1095,6 +1216,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t01c35ecb9a0326d02e.png",
     "weaponName": "酷热火龙炮",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t0167bfaba60571eba1.png",
+    "type": "猎人",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01c5028660286692fc.gif"
   },
   {
@@ -1104,6 +1226,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t018ef45886b6af5aac.png",
     "weaponName": "VARIUS-7",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01a26fd44ce768eaf9.png",
+    "type": "猎人",
     "skillGif": "http://p9.qhimg.com/dr/340__/t01a9aec2fc12da34e8.gif"
   },
   {
@@ -1113,6 +1236,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t0120bc202d018b77d3.png",
     "weaponName": "神秘猎人",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t01ac8ad5e7da711b45.png",
+    "type": "猎人",
     "skillGif": "http://p6.qhimg.com/dr/340__/t01e77e44ab8b320c4d.gif"
   },
   {
@@ -1122,6 +1246,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t01301990363156a317.png",
     "weaponName": "BlockBuster",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t012ea9abaa1a35e61c.png",
+    "type": "猎人",
     "skillGif": "http://p5.qhimg.com/dr/340__/t01156a04786ece82f5.gif"
   },
   {
@@ -1131,6 +1256,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t0129bc225da939c246.png",
     "weaponName": "混合小姐",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t0138ed7d6c0f8cd56a.png",
+    "type": "猎人",
     "skillGif": "http://p8.qhimg.com/dr/340__/t01dd9676f53a86d74a.gif"
   },
   {
@@ -1140,6 +1266,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01f626dd3de60b85a6.png",
     "weaponName": "天空电钻枪",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t019f822d3ec2970475.png",
+    "type": "猎人",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01ebfb73f07d5870ad.gif"
   },
   {
@@ -1149,6 +1276,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t01be813ae5ef22d157.png",
     "weaponName": "光学机关枪",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t01657f12c186b2552f.png",
+    "type": "猎人",
     "skillGif": "http://p7.qhimg.com/dr/340__/t016fda4e4416f068a1.gif"
   },
   {
@@ -1158,6 +1286,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t011ce80fcb8a7932af.png",
     "weaponName": "光柱激光炮",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01d37e5ef1c4d2eec2.png",
+    "type": "猎人",
     "skillGif": "http://p5.qhimg.com/dr/340__/t0109b207340c0fdbf6.gif"
   },
   {
@@ -1167,6 +1296,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t0175e2b8196d5071f0.png",
     "weaponName": "光柱狙击枪",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t0148c30eb6b766a0fd.png",
+    "type": "猎人",
     "skillGif": "http://p5.qhimg.com/dr/340__/t018b94dc68a092fcc8.gif"
   },
   {
@@ -1176,6 +1306,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t013f643770c22db0a6.png",
     "weaponName": "及时审判",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t01ef389f9020eb5af8.png",
+    "type": "猎人",
     "skillGif": "http://p7.qhimg.com/dr/340__/t01febe7cf450601d5f.gif"
   },
   {
@@ -1185,6 +1316,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01593d213f88b727ca.png",
     "weaponName": "耳环",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t01cd68b4daae7f2527.png",
+    "type": "猎人",
     "skillGif": "http://p3.qhimg.com/dr/340__/t0184cf06b1d0afd4c5.gif"
   },
   {
@@ -1194,6 +1326,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t01e101ada72529fa26.png",
     "weaponName": "新月玫瑰",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t017b9126910be61bf3.png",
+    "type": "猎人",
     "skillGif": "http://p6.qhimg.com/dr/340__/t01205fd65002c536d6.gif"
   },
   {
@@ -1203,6 +1336,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t01f1c77f4038e01513.png",
     "weaponName": "神威战锤",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01d95592f8f8ee1a17.png",
+    "type": "猎人",
     "skillGif": "http://p6.qhimg.com/dr/340__/t010fc14aa75abc5126.gif"
   },
   {
@@ -1212,6 +1346,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t0110f4386d96f264eb.png",
     "weaponName": "卡尔特·福·斯特恩",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t01532f591494bb11c0.png",
+    "type": "猎人",
     "skillGif": "http://p3.qhimg.com/dr/340__/t01d5c93c0f8a4aef8f.gif"
   },
   {
@@ -1221,6 +1356,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t019e5ab3ddc8b81eb6.png",
     "weaponName": "糯米丸子",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t014dbdad0788d78086.png",
+    "type": "猎人",
     "skillGif": "http://p5.qhimg.com/dr/340__/t01c8c86d9cc4cc8a46.gif"
   },
   {
@@ -1230,6 +1366,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t015018ec4a438c8534.png",
     "weaponName": "假面",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t017c485bc6537e1510.png",
+    "type": "猎人",
     "skillGif": "http://p8.qhimg.com/dr/340__/t019f5e43762443a5e0.gif"
   },
   {
@@ -1239,6 +1376,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t015c256ce2a2ba9ea0.png",
     "weaponName": "旋风火铳",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t0195a4b0908a67819d.png",
+    "type": "猎人",
     "skillGif": "http://p9.qhimg.com/dr/340__/t018d82ca4054b77988.gif"
   },
   {
@@ -1248,6 +1386,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t01ebc2bc734bcfb0df.png",
     "weaponName": "圣枪-神圣之力",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t0161ed97aa50286594.png",
+    "type": "猎人",
     "skillGif": "http://p4.qhimg.com/dr/340__/t015b851113bbc20624.gif"
   },
   {
@@ -1257,6 +1396,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t01c9276714d18c666d.png",
     "weaponName": "半永久光枪",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01cf3f3ad0dcb10595.png",
+    "type": "猎人",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01994369d7aaa7352a.gif"
   },
   {
@@ -1266,6 +1406,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t018641f040a43b1d4a.png",
     "weaponName": "米达斯之枪",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01c3ff9d09a52672b5.png",
+    "type": "猎人",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01fa10bf6ea735a93b.gif"
   },
   {
@@ -1275,6 +1416,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t01af16d59f07d03f82.png",
     "weaponName": "龙炮",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01a75dd41aa22cc730.png",
+    "type": "猎人",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01e95fddc9fd60daf1.gif"
   },
   {
@@ -1284,6 +1426,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t01dc5bff3ea35e1d98.png",
     "weaponName": "天国之扉",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t019e55aafa41d3c071.png",
+    "type": "猎人",
     "skillGif": "http://p1.qhimg.com/dr/340__/t0182838383569df28c.gif"
   },
   {
@@ -1293,6 +1436,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t01de23bafe43ae8c5f.png",
     "weaponName": "纳德米拉",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t01117a42b8862f2e70.png",
+    "type": "猎人",
     "skillGif": "http://p2.qhimg.com/dr/340__/t015ae261596231041a.gif"
   },
   {
@@ -1302,6 +1446,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t01179c3d8588da2733.png",
     "weaponName": "月之女王",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t01a05a602fe8a972b8.png",
+    "type": "法师",
     "skillGif": "http://p0.qhimg.com/dr/340__/t0119c537fa4f293841.gif"
   },
   {
@@ -1311,6 +1456,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t0176050bbc8caadac4.png",
     "weaponName": "终极麦克风",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01f4846c7bd3faebfc.png",
+    "type": "法师",
     "skillGif": "http://p4.qhimg.com/dr/340__/t012e671211484a197a.gif"
   },
   {
@@ -1320,6 +1466,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t0167e95df1178ad6c4.png",
     "weaponName": "启示之眼",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t01c82cbde308ae7d1f.png",
+    "type": "法师",
     "skillGif": "http://p5.qhimg.com/dr/340__/t01a9d91d545287d23c.gif"
   },
   {
@@ -1329,6 +1476,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01bd881084b2ef0d49.png",
     "weaponName": "黄泉引路人",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01327c353d8cbe75ce.png",
+    "type": "法师",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01e43ce0f02cdc6d70.gif"
   },
   {
@@ -1338,6 +1486,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t015fa996949b394eb3.png",
     "weaponName": "雪之华",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01f2d37483da5ade91.png",
+    "type": "法师",
     "skillGif": "http://p3.qhimg.com/dr/340__/t019197346374855e6a.gif"
   },
   {
@@ -1347,6 +1496,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01f3b6da2d47b589de.png",
     "weaponName": "噬魂师",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t0105954222435a734b.png",
+    "type": "法师",
     "skillGif": "http://p4.qhimg.com/dr/340__/t01cfc5994e6dc1a7e0.gif"
   },
   {
@@ -1356,6 +1506,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t014e67df573702f0a2.png",
     "weaponName": "死亡之吻",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t017a08c50522b3ed5d.png",
+    "type": "法师",
     "skillGif": "http://p8.qhimg.com/dr/340__/t01d8835e853efcdef5.gif"
   },
   {
@@ -1365,6 +1516,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t0103d30412f22ceac8.png",
     "weaponName": "黑桃A",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t01b4f8bef5da602606.png",
+    "type": "法师",
     "skillGif": "http://p7.qhimg.com/dr/340__/t019621d1d7db4c132f.gif"
   },
   {
@@ -1374,6 +1526,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t01e7ac5f3b4e867e06.png",
     "weaponName": "生命之杖",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t01db5d65f9ff49235b.png",
+    "type": "法师",
     "skillGif": "http://p1.qhimg.com/dr/340__/t010c961a93bf298b27.gif"
   },
   {
@@ -1383,6 +1536,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01c33baf728b5ac458.png",
     "weaponName": "无敌大将军",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01614e2844961fdeff.png",
+    "type": "法师",
     "skillGif": "http://p7.qhimg.com/dr/340__/t01167a0978cc067a43.gif"
   },
   {
@@ -1392,7 +1546,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01f113204334830174.png",
     "weaponName": "混沌之杖",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01db2f055e4de6b38e.png",
-    "skillGif": "http://p4.qhimg.com/dr/340__/t0135ccecd4582848cd.gif"
+    "type": "法师"
   },
   {
     "heroName": "丰饶女神德米特尔",
@@ -1401,6 +1555,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t013167bab1de8cb539.png",
     "weaponName": "撼地大王",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t013ec71cbbc2ef4a68.png",
+    "type": "法师",
     "skillGif": "http://p7.qhimg.com/dr/340__/t018612097e641081b3.gif"
   },
   {
@@ -1410,6 +1565,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t0136b54f9b5dc168cd.png",
     "weaponName": "忏悔之祷告",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t0125b9699b5f7b9858.png",
+    "type": "法师",
     "skillGif": "http://p4.qhimg.com/dr/340__/t01e9890c33fafae326.gif"
   },
   {
@@ -1419,6 +1575,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t018634156ae54acb48.png",
     "weaponName": "魔幻诱惑",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01974d42a904020854.png",
+    "type": "法师",
     "skillGif": "http://p8.qhimg.com/dr/340__/t01a1f9c8209715f381.gif"
   },
   {
@@ -1428,6 +1585,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t011bf050df43c027bb.png",
     "weaponName": "天堂之力",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01c80edd37cbbc2b57.png",
+    "type": "法师",
     "skillGif": "http://p3.qhimg.com/dr/340__/t010259e4ff9cae1e34.gif"
   },
   {
@@ -1437,6 +1595,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t012da84a0d4191d5df.png",
     "weaponName": "水中仙女",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01d0c0c662d7327e07.png",
+    "type": "法师",
     "skillGif": "http://p9.qhimg.com/dr/340__/t01c69613aa918f7389.gif"
   },
   {
@@ -1446,6 +1605,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t01ac6f16e33265eb28.png",
     "weaponName": "维尔法&维塔斯（专武）",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t01b2caf76b0dfb7a88.png",
+    "type": "法师",
     "skillGif": "http://p9.qhimg.com/dr/340__/t011a72a64e2003f823.gif"
   },
   {
@@ -1455,6 +1615,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t014e55f46b25e4170f.png",
     "weaponName": "铁球",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01f5cb6474c2c949ab.png",
+    "type": "法师",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01f08b4899eebbca92.gif"
   },
   {
@@ -1464,6 +1625,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01113f0831876626fa.png",
     "weaponName": "绣球花",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t0155fbb3c0aa7bd165.png",
+    "type": "法师",
     "skillGif": "http://p2.qhimg.com/dr/340__/t0173a475c7fd96ec15.gif"
   },
   {
@@ -1473,6 +1635,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t011a532fa6882686b7.png",
     "weaponName": "杀手兔",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t01f7a31d97864c1c9e.png",
+    "type": "法师",
     "skillGif": "http://p1.qhimg.com/dr/340__/t01dba280126c2a508e.gif"
   },
   {
@@ -1482,6 +1645,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t0193f78ec614d4242f.png",
     "weaponName": "八尺镜",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01a728ca569f2b3311.png",
+    "type": "法师",
     "skillGif": "http://p5.qhimg.com/dr/340__/t016a9c2f35b040efc5.gif"
   },
   {
@@ -1491,6 +1655,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t01ed8256510a2704f4.png",
     "weaponName": "蛇魔的闪电",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01f86b18f664f3f232.png",
+    "type": "法师",
     "skillGif": "http://p8.qhimg.com/dr/340__/t0145c6cbb9be3aca11.gif"
   },
   {
@@ -1500,6 +1665,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t013b68ee8cf4546d43.png",
     "weaponName": "破旧的猫玩偶",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t014b2b5b5c65782ab5.png",
+    "type": "法师",
     "skillGif": "http://p5.qhimg.com/dr/340__/t01c81e2350f985cfc8.gif"
   },
   {
@@ -1509,6 +1675,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t01a444c3ce75e706cb.png",
     "weaponName": "蛤蜊观音",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t018a2b56c667146253.png",
+    "type": "法师",
     "skillGif": "http://p5.qhimg.com/dr/340__/t013bf9c984e50df246.gif"
   },
   {
@@ -1518,6 +1685,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t010c41d217b74eec9b.png",
     "weaponName": "贝尔菲比亚",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01b45c283db8011315.png",
+    "type": "法师",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01c5fe1cb0ea80ea12.gif"
   },
   {
@@ -1527,6 +1695,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t0131cc44bfc3d3f354.png",
     "weaponName": "救世者的信物",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t01f0955625722ce9b5.png",
+    "type": "法师",
     "skillGif": "http://p1.qhimg.com/dr/340__/t0128fbfe908be9916b.gif"
   },
   {
@@ -1536,6 +1705,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t0148e7929f12c581d4.png",
     "weaponName": "洛基的奇妙世界",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t0106cda3bf0e7a8356.png",
+    "type": "法师",
     "skillGif": "http://p1.qhimg.com/dr/340__/t01a5667290525fa9ca.gif"
   },
   {
@@ -1545,6 +1715,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t013b5ab7340b1d757d.png",
     "weaponName": "高特鲁宾的审判",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t01bce2b22a33671e35.png",
+    "type": "法师",
     "skillGif": "http://p9.qhimg.com/dr/340__/t0157df0223529984f4.gif"
   },
   {
@@ -1554,6 +1725,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t01bb839d008aa441e8.png",
     "weaponName": "冰洁之花",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01cbb40e5d19ddd3ff.png",
+    "type": "法师",
     "skillGif": "http://p6.qhimg.com/dr/340__/t01f2ffbc53c97d084f.gif"
   },
   {
@@ -1563,6 +1735,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t0186d548de579a5d9d.png",
     "weaponName": "奈克洛&温蒂尼",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01dc743227bd93530f.png",
+    "type": "法师",
     "skillGif": "http://p1.qhimg.com/dr/340__/t01d9c249cc8c4871d0.gif"
   },
   {
@@ -1572,6 +1745,7 @@
     "skillIcon": "http://p6.qhimg.com/dr/52__/t011a54472e2a9594cc.png",
     "weaponName": "仙人求道",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t0144650203dc6ceee0.png",
+    "type": "法师",
     "skillGif": "http://p0.qhimg.com/dr/340__/t0128befaf0244bd83d.gif"
   },
   {
@@ -1581,6 +1755,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t013bb4e76440eddb7d.png",
     "weaponName": "死亡镰刀",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01481bbb50cab91568.png",
+    "type": "法师",
     "skillGif": "http://p3.qhimg.com/dr/340__/t0102fe29f2a5c35faf.gif"
   },
   {
@@ -1590,6 +1765,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t019c331629c91c6d6d.png",
     "weaponName": "拉姆之杖",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t016e153cbd162eaf12.png",
+    "type": "法师",
     "skillGif": "http://p4.qhimg.com/dr/340__/t014c66955be1afe22f.gif"
   },
   {
@@ -1599,6 +1775,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t01ca0ad230ae4df478.png",
     "weaponName": "司掌火焰的大精灵帕克",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t0180fb831c29c7be8e.png",
+    "type": "法师",
     "skillGif": "http://p7.qhimg.com/dr/340__/t01d237ac51f0521f27.gif"
   },
   {
@@ -1608,6 +1785,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t01956d6c3c9aa5c7f9.png",
     "weaponName": "空白的魔书",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t0176ded53c00f85f67.png",
+    "type": "法师",
     "skillGif": "http://p3.qhimg.com/dr/340__/t01b4267cceab14fa2f.gif"
   },
   {
@@ -1617,6 +1795,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t012c18da61f082415f.png",
     "weaponName": "乌拉科的妖术棒",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t018e5aae7aac307566.png",
+    "type": "法师",
     "skillGif": "http://p8.qhimg.com/dr/340__/t0106f1a5c869b34e56.gif"
   },
   {
@@ -1626,6 +1805,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t017400ca80d54cd28c.png",
     "weaponName": "米开朗基罗",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t01b6c47129a4230ce0.png",
+    "type": "祭司",
     "skillGif": "http://p4.qhimg.com/dr/340__/t01c50e338884cdc91c.gif"
   },
   {
@@ -1635,6 +1815,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t014740713646beb9b0.png",
     "weaponName": "阿斯莫",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t01d459ec83222fef75.png",
+    "type": "祭司",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01a796c4a7f9e09019.gif"
   },
   {
@@ -1644,6 +1825,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t0125920c1475024179.png",
     "weaponName": "可爱喵爪气球",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t015fd6e2010f38fb1e.png",
+    "type": "祭司",
     "skillGif": "http://p4.qhimg.com/dr/340__/t010ccacacca4a038a4.gif"
   },
   {
@@ -1653,6 +1835,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t01c533127793120f36.png",
     "weaponName": "加布里埃拉",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t01675bf6affcd3abc9.png",
+    "type": "祭司",
     "skillGif": "http://p5.qhimg.com/dr/340__/t01804b550933d6ccc7.gif"
   },
   {
@@ -1662,6 +1845,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01cb95852bb38279f2.png",
     "weaponName": "妖异狐火",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01badacd51a2b219a0.png",
+    "type": "祭司",
     "skillGif": "http://p9.qhimg.com/dr/340__/t0117173bc4fab88ef7.gif"
   },
   {
@@ -1671,6 +1855,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t01087d8e61575ab25d.png",
     "weaponName": "疫苗-G",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t0178ac936dcb72650f.png",
+    "type": "祭司",
     "skillGif": "http://p3.qhimg.com/dr/340__/t019c031abb4ef9c02f.gif"
   },
   {
@@ -1680,6 +1865,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01d1161b80fd288c0a.png",
     "weaponName": "黄金驱魔器",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01b0eb9c1e53720e7d.png",
+    "type": "祭司",
     "skillGif": "http://p2.qhimg.com/dr/340__/t015c9124812a9c994e.gif"
   },
   {
@@ -1689,6 +1875,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t013bbb66b9587352c0.png",
     "weaponName": "降魔幡",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t011d7706edec965d7c.png",
+    "type": "祭司",
     "skillGif": "http://p2.qhimg.com/dr/340__/t0122e906cee615eaf0.gif"
   },
   {
@@ -1698,6 +1885,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t010e41e2aa2e1d475e.png",
     "weaponName": "无限之力",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t013ba624aa70571941.png",
+    "type": "祭司",
     "skillGif": "http://p0.qhimg.com/dr/340__/t0149d8a3bc12f135c3.gif"
   },
   {
@@ -1707,6 +1895,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t016593662db216b455.png",
     "weaponName": "皇龙汤匙",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t015ebd7e6a05551798.png",
+    "type": "祭司",
     "skillGif": "http://p3.qhimg.com/dr/340__/t010d9cbbe6706ba2f8.gif"
   },
   {
@@ -1716,6 +1905,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t01dbf0b00157de9efc.png",
     "weaponName": "皇奚琴",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01e0decdef39f663f2.png",
+    "type": "祭司",
     "skillGif": "http://p0.qhimg.com/dr/340__/t017c098033e8f88873.gif"
   },
   {
@@ -1725,6 +1915,7 @@
     "skillIcon": "http://p5.qhimg.com/dr/52__/t01a01ecb3e8c67a923.png",
     "weaponName": "帕罗斯岛之光",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t0139cb4344a388c724.png",
+    "type": "祭司",
     "skillGif": "http://p2.qhimg.com/dr/340__/t0118dc89c66d7aebf5.gif"
   },
   {
@@ -1734,6 +1925,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t0154b440ea0a53c5f1.png",
     "weaponName": "欧律狄刻",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t0132048de3e382695b.png",
+    "type": "祭司",
     "skillGif": "http://p2.qhimg.com/dr/340__/t01bb6944b5077c82ca.gif"
   },
   {
@@ -1743,6 +1935,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t01b6e3f52bf2ff5e58.png",
     "weaponName": "星光之路标",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t01e25e610ff59b3c8f.png",
+    "type": "祭司",
     "skillGif": "http://p5.qhimg.com/dr/340__/t01b573e6be47e132a9.gif"
   },
   {
@@ -1752,6 +1945,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t014ed40b1bb75a7a98.png",
     "weaponName": "窗边绝境",
     "weaponIcon": "http://p0.qhimg.com/dr/45__/t0141715a01fd5b0047.png",
+    "type": "祭司",
     "skillGif": "http://p5.qhimg.com/dr/340__/t0174c335ff4f306857.gif"
   },
   {
@@ -1761,6 +1955,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t01886acf7c852d6405.png",
     "weaponName": "尼尼克系统",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t01c03b93de0294a89b.png",
+    "type": "祭司",
     "skillGif": "http://p6.qhimg.com/dr/340__/t012653508a2454f8e5.gif"
   },
   {
@@ -1770,6 +1965,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t01beb70049c3d639cd.png",
     "weaponName": "艾利克斯",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t0197c1cd23f145fc26.png",
+    "type": "祭司",
     "skillGif": "http://p6.qhimg.com/dr/340__/t01d8491d3fd627822b.gif"
   },
   {
@@ -1779,6 +1975,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t01ffe9e7566f5a553f.png",
     "weaponName": "深海的气息",
     "weaponIcon": "http://p3.qhimg.com/dr/45__/t0139c07182704d4f73.png",
+    "type": "祭司",
     "skillGif": "http://p6.qhimg.com/dr/340__/t014348bcdd5acdf669.gif"
   },
   {
@@ -1788,6 +1985,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t017a4148e1b669c589.png",
     "weaponName": "光之闪耀",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t01397efcc55a88de8a.png",
+    "type": "祭司",
     "skillGif": "http://p0.qhimg.com/dr/340__/t011d2edcb5c968dcff.gif"
   },
   {
@@ -1797,6 +1995,7 @@
     "skillIcon": "http://p7.qhimg.com/dr/52__/t019d291f4495830843.png",
     "weaponName": "肉包子",
     "weaponIcon": "http://p6.qhimg.com/dr/45__/t018686c6c712a27632.png",
+    "type": "祭司",
     "skillGif": "http://p8.qhimg.com/dr/340__/t01a11187601ba21115.gif"
   },
   {
@@ -1806,6 +2005,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t010b6751bd13df50d7.png",
     "weaponName": "头带",
     "weaponIcon": "http://p8.qhimg.com/dr/45__/t01a9f023161a3ddbaa.png",
+    "type": "祭司",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01f7ad12684803518b.gif"
   },
   {
@@ -1815,6 +2015,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t01366598389fda66c6.png",
     "weaponName": "灵魂引导者",
     "weaponIcon": "http://p1.qhimg.com/dr/45__/t010cd48f4855cec845.png",
+    "type": "祭司",
     "skillGif": "http://p0.qhimg.com/dr/340__/t01634da797d8568508.gif"
   },
   {
@@ -1824,6 +2025,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t014edf20ee0be85d7e.png",
     "weaponName": "阴阳师之扇",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01a87f2925b35a6359.png",
+    "type": "祭司",
     "skillGif": "http://p9.qhimg.com/dr/340__/t01f39285a377fc4f3c.gif"
   },
   {
@@ -1833,6 +2035,7 @@
     "skillIcon": "http://p3.qhimg.com/dr/52__/t01f09789076e6d9e45.png",
     "weaponName": "天象梦",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01105c9dd028012cc2.png",
+    "type": "祭司",
     "skillGif": "http://p7.qhimg.com/dr/340__/t01d23c9c6dc7cc1ca2.gif"
   },
   {
@@ -1842,6 +2045,7 @@
     "skillIcon": "http://p4.qhimg.com/dr/52__/t01db3a0c5947c8cea2.png",
     "weaponName": "超级电子工具",
     "weaponIcon": "http://p7.qhimg.com/dr/45__/t01e724af3576afcde3.png",
+    "type": "祭司",
     "skillGif": "http://p3.qhimg.com/dr/340__/t0120208288f7d6920a.gif"
   },
   {
@@ -1851,6 +2055,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t01e0ee96d5fe477909.png",
     "weaponName": "冰霜守护者宝珠",
     "weaponIcon": "http://p5.qhimg.com/dr/45__/t01d71ca6fed9c74687.png",
+    "type": "祭司",
     "skillGif": "http://p8.qhimg.com/dr/340__/t015b26bab221f999f4.gif"
   },
   {
@@ -1860,6 +2065,7 @@
     "skillIcon": "http://p9.qhimg.com/dr/52__/t01d0b5bba9c42180c8.png",
     "weaponName": "王牌",
     "weaponIcon": "http://p9.qhimg.com/dr/45__/t0109f2435252963f99.png",
+    "type": "祭司",
     "skillGif": "http://p8.qhimg.com/dr/340__/t01e4872d3c65815dc3.gif"
   },
   {
@@ -1869,6 +2075,7 @@
     "skillIcon": "http://p1.qhimg.com/dr/52__/t0105352a94b26c4b73.png",
     "weaponName": "奥比斯之魂",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t01316d52d315d87112.png",
+    "type": "祭司",
     "skillGif": "http://p0.qhimg.com/dr/340__/t014dbdea956bee7c3c.gif"
   },
   {
@@ -1878,6 +2085,7 @@
     "skillIcon": "http://p2.qhimg.com/dr/52__/t01f2006a7bff69cf95.png",
     "weaponName": "库珥修赐予的剑",
     "weaponIcon": "http://p2.qhimg.com/dr/45__/t013e4e1e3c2086df12.png",
+    "type": "祭司",
     "skillGif": "http://p6.qhimg.com/dr/340__/t01d87cd239d739609b.gif"
   },
   {
@@ -1887,6 +2095,7 @@
     "skillIcon": "http://p0.qhimg.com/dr/52__/t01fc3aa42c7c680041.png",
     "weaponName": "删除之书-上",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t0169168bd078fe8709.png",
+    "type": "祭司",
     "skillGif": "http://p8.qhimg.com/dr/340__/t015121c920fca17792.gif"
   },
   {
@@ -1896,6 +2105,7 @@
     "skillIcon": "http://p8.qhimg.com/dr/52__/t01e351266ecc3afb23.png",
     "weaponName": "地下先锋",
     "weaponIcon": "http://p4.qhimg.com/dr/45__/t018157343a7f39dae8.png",
+    "type": "祭司",
     "skillGif": "http://p2.qhimg.com/dr/340__/t014e732fcf8e050636.gif"
   }
 ]
