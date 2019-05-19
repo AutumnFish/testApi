@@ -284,6 +284,32 @@ xhr.send('username=xxx')
 }
 ```
 
+### 角色技能动态图查询
+
+> 查询英雄的 详细信息
+
+- 请求地址：https://autumnfish.cn/api/cq/gif
+- 请求方法：get
+- 请求参数：name
+
+| 参数名   | 参数说明 | 备注                       |
+| :------- | :------- | :------------------------- |
+| name    | 英雄名   | 不能为空   |
+
+
+- 响应内容：JSON
+
+```json
+{
+  "data": {
+      "skillGif": "http://p7.qhimg.com/dr/340__/t019779314457e6a37d.gif",
+      "heroName": "八神庵"
+  },
+  "msg": "八神庵的技能图片获取成功",
+  "code": 200
+}
+```
+
 
 
 ## 获取 json 格式的天气

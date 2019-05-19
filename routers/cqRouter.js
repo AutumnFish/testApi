@@ -7,7 +7,6 @@ const router = express.Router()
 // 根据查询英雄数据
 router.get('/page', (req, res) => {
   // 参数判断
-
   // 读取数据并返回
   fs.readFile(
     path.join(__dirname, '../data/cqList.json'),
@@ -75,6 +74,7 @@ router.get('/page', (req, res) => {
     }
   )
 })
+// 数据查询
 router.get('/', (req, res) => {
   // 参数判断
 
@@ -105,6 +105,41 @@ router.get('/', (req, res) => {
       })
     }
   )
+})
+// 获取gif图
+// 传英雄名过来
+router.get('/gif',(req,res)=>{
+  if(!req.query.name){
+    res.send({
+      msg:"请正确传递参数",
+      code:400
+    })
+    return;
+  }
+  fs.readFile(path.join(__dirname,'../data/cqList.json'),'utf-8',(err,data)=>{
+    const cq = JSON.parse(data)
+    // 判断数据
+    const filterOne = cq.filter(v=>{
+      if(v.heroName==req.query.name){
+        return true
+      }
+    })
+    if(filterOne==0){
+      res.send({
+        msg:'查询的英雄不存在哦，检查一下',
+        code:400
+      })
+    }else{
+      res.send({
+        data:{
+          skillGif:filterOne[0].skillGif,
+          heroName:req.query.name
+        },
+        msg:`${req.query.name}的技能图片获取成功`,
+        code:200
+      })
+    }
+  })
 })
 
 // 暴露出去
