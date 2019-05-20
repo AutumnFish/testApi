@@ -53,6 +53,7 @@ router.get('/page', (req, res) => {
         res.send({
           msg: `总页数为${totalPage},pageNum不达标`
         })
+        return
       }
       // 计算起始索引
       let startIndex = (pageNum - 1) * pageSize
