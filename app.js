@@ -10,11 +10,16 @@ const user = require('./routers/userRouter')
 const cq = require('./routers/cqRouter')
 // 导入cors允许跨域
 const cors = require('cors')
+// 导入express日志插件
+const morgan = require('morgan');
+
 
 // 实例化服务器对象
 const app = express()
 // 使用cors设置允许跨域
 app.use(cors())
+// 使用日志插件
+app.use(morgan('short'));
 
 // 统一设置延迟
 app.use((req, res, next) => {

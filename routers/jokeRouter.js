@@ -28,7 +28,7 @@ router.get('/list', (req, res) => {
   if (req.query.num) {
     // 获取个数
     const num = parseInt(req.query.num)
-    console.log(num)
+    // console.log(num)
     if (!isNaN(num)) {
       fs.readFile(
         path.join(__dirname, '../data/jokes.json'),
