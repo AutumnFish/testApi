@@ -223,6 +223,13 @@ router.get('/', (req, res) => {
 router.post('/add', upload.single('heroIcon'), function(req, res, next) {
   // res.send(req.file)d
   // fs.renameSync(path.join())
+  if (!req.body.heroName || !req.body.heroSkill || !req.body.file) {
+    res.send({
+      msg: '参数不对哦',
+      code: 400
+    })
+    return
+  }
   // res.send(req.body)
   fs.readFile(
     path.join(__dirname, '../data/cqSimple.json'),
