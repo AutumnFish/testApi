@@ -116,9 +116,11 @@ router.get('/page', (req, res) => {
       const query = req.query.query || ''
       const filterHero = cq
         .filter(v => {
-          console.log(v);
-          return
-          v.heroName.indexOf(query) != -1 || v.skillName.indexOf(query) != -1
+          // console.log(v);
+          if(!v.skillName){
+            console.log(v);
+          }
+          return v.heroName.indexOf(query) != -1 || v.skillName.indexOf(query) != -1
         })
         .map(v => {
           return {
