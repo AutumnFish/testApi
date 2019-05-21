@@ -196,9 +196,14 @@ router.get('/', (req, res) => {
       const query = req.query.query || ''
       const filterHero = cq
         .filter(v => {
-          return (
-            v.heroName.indexOf(query) != -1 || v.skillName.indexOf(query) != -1
-          )
+          try {
+            return (
+              v.heroName.indexOf(query) != -1 ||
+              v.skillName.indexOf(query) != -1
+            )
+          } catch (error) {
+            return false
+          }
         })
         .map(v => {
           return {
