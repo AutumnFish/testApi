@@ -260,7 +260,7 @@ xhr.send('username=xxx')
 
 - 请求地址：https://autumnfish.cn/api/cq/page
 - 请求方法：get
-- 请求参数：query
+- 请求参数：query,pageNum,pageSize
 
 | 参数名   | 参数说明 | 备注                       |
 | :------- | :------- | :------------------------- |
