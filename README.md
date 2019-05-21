@@ -360,6 +360,20 @@ xhr.send('username=xxx')
 
 - 响应内容：JSON
 
+```json
+{
+    "msg": "新增成功",
+    "code": 201,
+    "info": {
+        "heroIcon": "https://autumnfish.cn/api/cq/static/5f89c6f2c695d7126d2768bda47fd7e9",
+        "heroName": "超级舞王",
+        "skillName": "跳舞"
+    }
+}
+```
+
+
+
 ## 随机二次元图片获取
 
 [原接口地址文档地址](http://acg.bakayun.cn/)，此接口只是整理了网上的免费接口，并把文档调整了格式
