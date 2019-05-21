@@ -111,7 +111,7 @@ router.get('/page', (req, res) => {
     'utf-8',
     (err, data) => {
       const cq = JSON.parse(data)
-      console.log(cq)
+      // console.log(cq)
       // 获取查询字符串
       const query = req.query.query || ''
       const filterHero = cq
