@@ -344,7 +344,21 @@ xhr.send('username=xxx')
 }
 ```
 
+### 角色新增
 
+> 查询英雄的 详细信息
+
+- 请求地址：https://autumnfish.cn/api/cq/add
+- 请求方法：post
+- 请求参数：heroName,heroSkill,skillName
+
+| 参数名    | 参数说明 | 备注     |
+| :-------- | :------- | :------- |
+| heroName  | 英雄名   | 不能为空 |
+| heroIcon  | 技能图片 | 不能为空 |
+| skillName | 技能名   | 不能为空 |
+
+- 响应内容：JSON
 
 ## 随机二次元图片获取
 
