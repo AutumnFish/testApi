@@ -4,7 +4,7 @@ const path = require('path')
 const router = express.Router()
 var multer = require('multer')
 var upload = multer({
-  dest: path.join(__dirname, '../uploads'),
+  dest: path.join(__dirname, '../uploads')
   // limits: {
   //   //在这里设置最多能上传多少个文件，那么就不用在下面upload.array('field1', 5)设置了
   //   files: 1, //一次只允许上传一个文件
@@ -111,16 +111,17 @@ router.get('/page', (req, res) => {
     'utf-8',
     (err, data) => {
       const cq = JSON.parse(data)
+      console.log(cq)
       // 获取查询字符串
       const query = req.query.query || ''
       const filterHero = cq
         .filter(v => {
-          return (
-            v.heroName.indexOf(query) != -1 || v.skillName.indexOf(query) != -1
-          )
+          console.log(v);
+          return
+          v.heroName.indexOf(query) != -1 || v.skillName.indexOf(query) != -1
         })
         .map(v => {
-          return { 
+          return {
             name: v.heroName,
             icon: v.heroIcon,
             skill: v.skillName
@@ -216,13 +217,13 @@ router.post('/add', upload.single('heroIcon'), function(req, res, next) {
       const cq = JSON.parse(data)
 
       // 检查是否已经存在
-      const filterOne = cq.filter(v=>{
+      const filterOne = cq.filter(v => {
         return v.heroName == req.body.heroName
       })
-      if(filterOne.length!=0){
+      if (filterOne.length != 0) {
         res.send({
-          msg:'该英雄已存在,请检查',
-          code:400
+          msg: '该英雄已存在,请检查',
+          code: 400
         })
         return
       }
