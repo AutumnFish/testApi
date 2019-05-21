@@ -214,6 +214,18 @@ router.post('/add', upload.single('heroIcon'), function(req, res, next) {
     'utf-8',
     (err, data) => {
       const cq = JSON.parse(data)
+
+      // 检查是否已经存在
+      const filterOne = cq.filter(v=>{
+        return v.heroName == req.body.heroName
+      })
+      if(filterOne.length!=0){
+        res.send({
+          msg:'该英雄已存在,请检查',
+          code:400
+        })
+        return
+      }
       cq.push({
         heroIcon: `https://autumnfish.cn/api/cq/static/${req.file.filename}`,
         ...req.body
