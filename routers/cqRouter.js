@@ -117,10 +117,17 @@ router.get('/page', (req, res) => {
       const filterHero = cq
         .filter(v => {
           // console.log(v);
-          if(!v.skillName){
-            console.log(v);
+          if (!v.skillName) {
+            console.log(v)
           }
-          return v.heroName.indexOf(query) != -1 || v.skillName.indexOf(query) != -1
+          try {
+            return (
+              v.heroName.indexOf(query) != -1 ||
+              v.skillName.indexOf(query) != -1
+            )
+          } catch (error) {
+            return false
+          }
         })
         .map(v => {
           return {
