@@ -43,7 +43,7 @@ router.get('/info', (req, res) => {
         const heros = JSON.parse(data)
         // console.log(heros)
         const filterHero = heros.filter(v => {
-          return v.name == req.query.name
+          return (v.name.indexOf(req.query.name)!=-1)
         })
         if (filterHero.length == 0) {
           res.send('没有找到，是不是名字写错了啊')
