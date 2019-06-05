@@ -475,208 +475,52 @@ xhr.send('username=xxx')
 }
 ```
 
-## 获取 xml 格式的天气
+## 获取 xml 格式菜单
 
-- 请求地址：http://wthrcdn.etouch.cn/WeatherApi
-  - 示例：http://wthrcdn.etouch.cn/WeatherApi?city=武汉
+- 请求地址：https://autumnfish.cn/api/food.xml
+
 - 请求方法：get
-- 请求参数：city
+- 请求参数：无
 
-| 参数名 | 参数说明     | 备注               |
-| :----- | :----------- | :----------------- |
-| city   | 查询的城市名 | 不能写错，不能为空 |
 
-- 响应内容：聊天的信息
+
+- 响应内容：
 
 ```xml
 <?xml version="1.0" encoding="UTF-8"?>
-<resp>
-    <city>武汉</city>
-    <updatetime>15:26</updatetime>
-    <wendu>23</wendu>
-    <fengli>
-        <![CDATA[1级]]>
-    </fengli>
-    <shidu>86%</shidu>
-    <fengxiang>东北风</fengxiang>
-    <sunrise_1>05:28</sunrise_1>
-    <sunset_1>19:11</sunset_1>
-    <sunrise_2></sunrise_2>
-    <sunset_2></sunset_2>
-    <yesterday>
-        <date_1>15日星期三</date_1>
-        <high_1>高温 23℃</high_1>
-        <low_1>低温 17℃</low_1>
-        <day_1>
-            <type_1>小雨</type_1>
-            <fx_1>北风</fx_1>
-            <fl_1>
-                <![CDATA[3-4级]]>
-            </fl_1>
-        </day_1>
-        <night_1>
-            <type_1>多云</type_1>
-            <fx_1>西北风</fx_1>
-            <fl_1>
-                <![CDATA[<3级]]>
-            </fl_1>
-        </night_1>
-    </yesterday>
-    <forecast>
-        <weather>
-            <date>16日星期四</date>
-            <high>高温 24℃</high>
-            <low>低温 20℃</low>
-            <day>
-                <type>多云</type>
-                <fengxiang>东风</fengxiang>
-                <fengli>
-                    <![CDATA[<3级]]>
-                </fengli>
-            </day>
-            <night>
-                <type>小雨</type>
-                <fengxiang>北风</fengxiang>
-                <fengli>
-                    <![CDATA[<3级]]>
-                </fengli>
-            </night>
-        </weather>
-        <weather>
-            <date>17日星期五</date>
-            <high>高温 28℃</high>
-            <low>低温 19℃</low>
-            <day>
-                <type>多云</type>
-                <fengxiang>北风</fengxiang>
-                <fengli>
-                    <![CDATA[<3级]]>
-                </fengli>
-            </day>
-            <night>
-                <type>多云</type>
-                <fengxiang>东北风</fengxiang>
-                <fengli>
-                    <![CDATA[<3级]]>
-                </fengli>
-            </night>
-        </weather>
-        <weather>
-            <date>18日星期六</date>
-            <high>高温 29℃</high>
-            <low>低温 21℃</low>
-            <day>
-                <type>多云</type>
-                <fengxiang>东风</fengxiang>
-                <fengli>
-                    <![CDATA[<3级]]>
-                </fengli>
-            </day>
-            <night>
-                <type>中雨</type>
-                <fengxiang>东风</fengxiang>
-                <fengli>
-                    <![CDATA[3-4级]]>
-                </fengli>
-            </night>
-        </weather>
-        <weather>
-            <date>19日星期天</date>
-            <high>高温 26℃</high>
-            <low>低温 18℃</low>
-            <day>
-                <type>中雨</type>
-                <fengxiang>北风</fengxiang>
-                <fengli>
-                    <![CDATA[4-5级]]>
-                </fengli>
-            </day>
-            <night>
-                <type>多云</type>
-                <fengxiang>北风</fengxiang>
-                <fengli>
-                    <![CDATA[3-4级]]>
-                </fengli>
-            </night>
-        </weather>
-        <weather>
-            <date>20日星期一</date>
-            <high>高温 27℃</high>
-            <low>低温 14℃</low>
-            <day>
-                <type>多云</type>
-                <fengxiang>北风</fengxiang>
-                <fengli>
-                    <![CDATA[3-4级]]>
-                </fengli>
-            </day>
-            <night>
-                <type>多云</type>
-                <fengxiang>北风</fengxiang>
-                <fengli>
-                    <![CDATA[<3级]]>
-                </fengli>
-            </night>
-        </weather>
-    </forecast>
-    <zhishus>
-        <zhishu>
-            <name>晨练指数</name>
-            <value>适宜</value>
-            <detail>天气不错，空气清新，是您晨练的大好时机，建议不同年龄段的人们积极参加户外健身活动。</detail>
-        </zhishu>
-        <zhishu>
-            <name>舒适度</name>
-            <value>舒适</value>
-            <detail>白天不太热也不太冷，风力不大，相信您在这样的天气条件下，应会感到比较清爽和舒适。</detail>
-        </zhishu>
-        <zhishu>
-            <name>穿衣指数</name>
-            <value>舒适</value>
-            <detail>建议着长袖T恤、衬衫加单裤等服装。年老体弱者宜着针织长袖衬衫、马甲和长裤。</detail>
-        </zhishu>
-        <zhishu>
-            <name>感冒指数</name>
-            <value>少发</value>
-            <detail>各项气象条件适宜，无明显降温过程，发生感冒机率较低。</detail>
-        </zhishu>
-        <zhishu>
-            <name>晾晒指数</name>
-            <value>适宜</value>
-            <detail>天气不错，适宜晾晒。赶紧把久未见阳光的衣物搬出来吸收一下太阳的味道吧！</detail>
-        </zhishu>
-        <zhishu>
-            <name>旅游指数</name>
-            <value>适宜</value>
-            <detail>天气较好，但丝毫不会影响您出行的心情。温度适宜又有微风相伴，适宜旅游。</detail>
-        </zhishu>
-        <zhishu>
-            <name>紫外线强度</name>
-            <value>最弱</value>
-            <detail>属弱紫外线辐射天气，无需特别防护。若长期在户外，建议涂擦SPF在8-12之间的防晒护肤品。</detail>
-        </zhishu>
-        <zhishu>
-            <name>洗车指数</name>
-            <value>不宜</value>
-            <detail>不宜洗车，未来24小时内有雨，如果在此期间洗车，雨水和路上的泥水可能会再次弄脏您的爱车。</detail>
-        </zhishu>
-        <zhishu>
-            <name>运动指数</name>
-            <value>适宜</value>
-            <detail>天气较好，赶快投身大自然参与户外运动，尽情感受运动的快乐吧。</detail>
-        </zhishu>
-        <zhishu>
-            <name>约会指数</name>
-            <value>较适宜</value>
-            <detail>虽然有点风，但情侣们可以放心外出，不用担心天气来调皮捣乱而影响了兴致。</detail>
-        </zhishu>
-        <zhishu>
-            <name>雨伞指数</name>
-            <value>不带伞</value>
-            <detail>天气较好，不会降水，因此您可放心出门，无须带雨伞。</detail>
-        </zhishu>
-    </zhishus>
-</resp>
+<breakfast_menu>
+	<food>
+		<name>Belgian Waffles</name>
+		<price>$5.95</price>
+		<description>Two of our famous Belgian Waffles with plenty of real maple syrup</description>
+		<calories>650</calories>
+	</food>
+	<food>
+		<name>Strawberry Belgian Waffles</name>
+		<price>$7.95</price>
+		<description>Light Belgian waffles covered with strawberries and whipped cream</description>
+		<calories>900</calories>
+	</food>
+	<food>
+		<name>Berry-Berry Belgian Waffles</name>
+		<price>$8.95</price>
+		<description>Light Belgian waffles covered with an assortment of fresh berries and whipped cream</description>
+		<calories>900</calories>
+	</food>
+	<food>
+		<name>French Toast</name>
+		<price>$4.50</price>
+		<description>Thick slices made from our homemade sourdough bread</description>
+		<calories>600</calories>
+	</food>
+	<food>
+		<name>Homestyle Breakfast</name>
+		<price>$6.95</price>
+		<description>Two eggs, bacon or sausage, toast, and our ever-popular hash browns</description>
+		<calories>950</calories>
+	</food>
+</breakfast_menu>
+
 ```
 
 ## 图灵机器人
