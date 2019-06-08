@@ -171,7 +171,7 @@ router.get('/page', (req, res) => {
       }
       // 获取 数据
       let list = []
-      for (let i = startIndex; i <= endIndex; i++) {
+      for (let i = startIndex; i < endIndex; i++) {
         list.push(filterHero[i])
       }
 
