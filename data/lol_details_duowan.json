@@ -397,23 +397,33 @@
     "title": "放逐之刃",
     "name": "瑞文",
     "bgs": [
-      "http://img2.dwstatic.com/lol/1512/315489415195/1451534494405.jpg",
-      "http://img5.dwstatic.com/lol/1512/315489415195/1451534564729.jpg",
-      "http://img.dwstatic.com/lol/1512/315489415195/1451534573341.jpg",
-      "http://img3.dwstatic.com/lol/1512/315489415195/1451534583873.jpg",
-      "http://img5.dwstatic.com/lol/1512/315489415195/1451534594943.jpg",
-      "http://img4.dwstatic.com/lol/1512/315489415195/1451534607051.jpg",
-      "http://img.dwstatic.com/lol/1512/315489415195/1451534621236.jpg"
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92000.jpg",
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92001.jpg",
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92002.jpg",
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92003.jpg",
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92004.jpg",
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92005.jpg",
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92006.jpg",
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92007.jpg",
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92016.jpg",
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92018.jpg",
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92020.jpg",
+     "https://game.gtimg.cn/images/lol/act/img/skin/big92022.jpg"
     ],
     "tags": ["近战", "战士"],
     "bgs_thumbnail": [
-      "http://img1.dwstatic.com/lol/1512/315489415195/1451534759126.jpg",
-      "http://img.dwstatic.com/lol/1512/315489415195/1451534768687.jpg",
-      "http://img1.dwstatic.com/lol/1512/315489415195/1451534776247.jpg",
-      "http://img4.dwstatic.com/lol/1512/315489415195/1451534783654.jpg",
-      "http://img1.dwstatic.com/lol/1512/315489415195/1451534793484.jpg",
-      "http://img1.dwstatic.com/lol/1512/315489415195/1451534801245.jpg",
-      "http://img.dwstatic.com/lol/1512/315489415195/1451534817910.jpg"
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92000.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92001.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92002.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92003.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92004.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92005.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92006.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92007.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92016.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92018.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92020.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small92022.jpg"
     ],
     "Ability": {
       "life": "70",
@@ -912,15 +922,16 @@
     "title": "虚空遁地兽",
     "name": "雷克赛",
     "bgs": [
-      "http://img5.dwstatic.com/lol/1512/315158331600/1451206571804.jpg",
-      "http://img.dwstatic.com/lol/1512/315158331600/1451206635916.jpg",
-      "http://img5.dwstatic.com/lol/1512/315158331600/1451206665636.jpg"
+      "https://game.gtimg.cn/images/lol/act/img/skin/big421000.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big421001.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big421002.jpg"
     ],
     "tags": ["突进", "打野"],
     "bgs_thumbnail": [
-      "http://img.dwstatic.com/lol/1512/315158331600/1451206795620.jpg",
-      "http://img4.dwstatic.com/lol/1512/315158331600/1451206806786.jpg",
-      "http://img5.dwstatic.com/lol/1512/315158331600/1451206815605.jpg"
+      "https://game.gtimg.cn/images/lol/act/img/skin/small421000.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small421001.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small421002.jpg"
+
     ],
     "Ability": {
       "life": "70",
@@ -1061,13 +1072,15 @@
     "title": "铸星龙王",
     "name": "奥瑞利安索尔",
     "bgs": [
-      "http://img3.dwstatic.com/lol/1603/322852568002/1458897488919.jpg",
-      "http://img5.dwstatic.com/lol/1603/322852568002/1458897529908.jpg"
+      "https://game.gtimg.cn/images/lol/act/img/skin/big136000.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big136001.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big136002.jpg"
     ],
     "tags": ["法师"],
     "bgs_thumbnail": [
-      "http://img5.dwstatic.com/lol/1603/322852568002/1458897565161.jpg",
-      "http://img5.dwstatic.com/lol/1603/322852568002/1458897606681.jpg"
+      "https://game.gtimg.cn/images/lol/act/img/skin/small136000.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small136001.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small136002.jpg"
     ],
     "Ability": {
       "life": "20",
@@ -2627,23 +2640,31 @@
     "title": "法外狂徒",
     "name": "格雷夫斯",
     "bgs": [
-      "http://img5.dwstatic.com/lol/1512/315414597848/1451466514447.jpg",
-      "http://img1.dwstatic.com/lol/1512/315414597848/1451466522938.jpg",
-      "http://img2.dwstatic.com/lol/1512/315414597848/1451466538356.jpg",
-      "http://img1.dwstatic.com/lol/1512/315414597848/1451466565429.jpg",
-      "http://img1.dwstatic.com/lol/1512/315414597848/1451466577636.jpg",
-      "http://img.dwstatic.com/lol/1512/315414597848/1451466596377.jpg",
-      "http://img2.dwstatic.com/lol/1512/315414597848/1451466611153.jpg"
+      "https://game.gtimg.cn/images/lol/act/img/skin/big104000.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big104001.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big104002.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big104003.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big104004.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big104005.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big104006.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big104007.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big104014.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big104018.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/big104025.jpg"
     ],
     "tags": ["远程", "打野"],
     "bgs_thumbnail": [
-      "http://img4.dwstatic.com/lol/1512/315414597848/1451466780696.jpg",
-      "http://img4.dwstatic.com/lol/1512/315414597848/1451466801035.jpg",
-      "http://img2.dwstatic.com/lol/1512/315414597848/1451466808297.jpg",
-      "http://img2.dwstatic.com/lol/1512/315414597848/1451466814610.jpg",
-      "http://img3.dwstatic.com/lol/1512/315414597848/1451466820612.jpg",
-      "http://img1.dwstatic.com/lol/1512/315414597848/1451466829360.jpg",
-      "http://img5.dwstatic.com/lol/1512/315414597848/1451466836826.jpg"
+      "https://game.gtimg.cn/images/lol/act/img/skin/small104000.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small104001.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small104002.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small104003.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small104004.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small104005.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small104006.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small104007.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small104014.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small104018.jpg",
+      "https://game.gtimg.cn/images/lol/act/img/skin/small104025.jpg"
     ],
     "Ability": {
       "life": "70",
