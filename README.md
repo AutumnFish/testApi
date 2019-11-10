@@ -452,27 +452,19 @@ xhr.send('username=xxx')
 
 
 
-## 随机二次元图片获取
+## 随机背景大图
 
-[原接口地址文档地址](http://acg.bakayun.cn/)，此接口只是整理了网上的免费接口，并把文档调整了格式
+返回随机的lol英雄皮肤
 
-* 请求地址:http://acg.bakayun.cn/randbg.php
+* 请求地址:https://autumnfish.cn/api/cover/random
 * 请求方法：get
-* 请求参数：Type,t,https
-
-| 参数名 | 参数说明      | 备注                                                         |
-| :----- | :------------ | :----------------------------------------------------------- |
-| Type   | 类型          | 301 = 301跳转(301 Moved Permanently)<br/> 302 = 302跳转<br/> json = JSON数据 |
-| t      | 专辑          | dfproject = 东方16:9壁纸(495张) <br/>dfzh = 东方竖图(6239张) <br/>ecyzh = 二次元综合(1991张)<br/> 不填 = 全部图片随机 |
-| https  | 是否使用https | true或者为空                                                 |
-
-- 响应内容:根据设置的结果会略有区别
-- 比如:http://acg.bakayun.cn/randbg.php?Type=json&t=dfproject 
+* 请求参数：无
 
 ```json
 {
-    "ImgUrl": "http://img.badapple.top/东方Project/八坂神奈子/img (11).jpg",
-    "Color": "175,133,124"
+    "code": 200,
+    "msg": "获取成功",
+    "url": "http://ossweb-img.qq.com/images/lol/web201310/skin/big90000.jpg"
 }
 ```
 
