@@ -25,20 +25,37 @@ router.use((req, res, next) => {
 router.get('/search', (req, res) => {
   // 获取get的数据
   const { q } = req.query;
-  // console.log(q)
+  console.log(q)
   if (!q) {
     res.send({
       code: 200,
-      msg:'获取成功',
-      data
+      msg: '获取成功',
+      data:req.data
+      .map(v => {
+        const { id, name, iconUrl } = v;
+        return {
+          id,
+          name,
+          iconUrl
+        };
+      })
     });
   } else {
     res.send({
       code: 200,
-      msg:'获取成功',
-      data: req.data.filter(v => {
-        return v.title.indexOf(q) != -1 || v.name.indexOf(q) != -1;
-      })
+      msg: '获取成功',
+      data: req.data
+        .filter(v => {
+          return v.title.indexOf(q) != -1 || v.name.indexOf(q) != -1;
+        })
+        .map(v => {
+          const { id, name, iconUrl } = v;
+          return {
+            id,
+            name,
+            iconUrl
+          };
+        })
     });
   }
 });
@@ -60,14 +77,14 @@ router.get('/info', (req, res) => {
     if (data) {
       res.send({
         code: 200,
-        msg:"获取成功",
+        msg: '获取成功',
         data
       });
-    }else{
-        res.send({
-            code:400,
-            msg:'id有误,请检查'
-        })
+    } else {
+      res.send({
+        code: 400,
+        msg: 'id有误,请检查'
+      });
     }
   }
 });

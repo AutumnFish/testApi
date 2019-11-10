@@ -387,6 +387,70 @@ xhr.send('username=xxx')
 ```
 
 
+### lol-查询
+
+> 查询lol英雄列表
+
+- 请求地址：https://autumnfish.cn/api/lol/search
+- 请求方法：get
+- 请求参数：q
+
+| 参数名    | 参数说明 | 备注     |
+| :-------- | :------- | :------- |
+| q  | 英雄名   | 查询的关键字 |
+
+
+- 响应内容：JSON
+
+```json
+{
+    "code": 200,
+    "msg": "获取成功",
+    "data": [
+        {
+            "id": "alistar",
+            "name": "阿利斯塔",
+            "iconUrl": "https://ossweb-img.qq.com/images/lol/img/champion/Alistar.png"
+        }
+    ]
+}
+```
+
+### lol-详情
+
+> 查询lol英雄详情
+
+- 请求地址：https://autumnfish.cn/api/lol/info
+- 请求方法：get
+- 请求参数：id
+
+| 参数名    | 参数说明 | 备注     |
+| :-------- | :------- | :------- |
+| id  | 英雄id   | 英雄id |
+
+
+- 响应内容：JSON
+
+```json
+{
+    "code": 200,
+    "msg": "获取成功",
+    "data": {
+        "id": "Sylas",
+        "title": "解脱者",
+        "name": "塞拉斯",
+        "iconUrl": "https://ossweb-img.qq.com/images/lol/img/champion/Sylas.png",
+        "story": "<h5>英雄故事:</h5>作为一个出生于德玛西亚穷苦家庭的法师，虽然当时塞拉斯还只是一个少年，搜魔人还是将他终身监禁。他使用偷来的魔法杀害了场上所有人，除了饱受惊吓的拉克丝。塞拉斯不是以逃犯的身份离开搜魔人监狱，而是成为了法师反抗的代表。",
+        "img": "http://ossweb-img.qq.com/images/lol/web201310/skin/big517000.jpg",
+        "roles": [
+            "法师",
+            "刺客"
+        ]
+    }
+}
+```
+
+
 
 ## 随机二次元图片获取
 
