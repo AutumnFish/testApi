@@ -11,6 +11,8 @@ const cq = require('./routers/cqRouter')
 
 // 导入manager路由
 const manager = require('./routers/managerRouter.js')
+// 导入lol路由
+const lol = require('./routers/lolRouter.js')
 // 导入cors允许跨域
 const cors = require('cors')
 // 导入express日志插件
@@ -45,6 +47,8 @@ app.use('/user', user)
 app.use('/cq', cq)
 // 添加路由 - manager路由
 app.use('/manager', manager)
+// 添加路由 - lol路由
+app.use('/lol', lol)
 
 // 开启监听
 const server = app.listen(8888, () => {
