@@ -15,6 +15,8 @@ const manager = require('./routers/managerRouter.js')
 const lol = require('./routers/lolRouter.js')
 // 导入cover路由
 const cover = require('./routers/coverRouter')
+// 导入ninja路由
+const ninja = require('./routers/ninjaRouter')
 // 导入cors允许跨域
 const cors = require('cors')
 // 导入express日志插件
@@ -53,6 +55,8 @@ app.use('/manager', manager)
 app.use('/lol', lol)
 // 添加路由 - cover路由
 app.use('/cover', cover)
+// 添加路由 - ninja路由
+app.use('/ninja', ninja)
 
 // 开启监听
 const server = app.listen(8888, () => {

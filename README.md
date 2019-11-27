@@ -26,6 +26,7 @@
         - [角色新增](#角色新增)
     - [lol-查询](#lol-查询)
     - [lol-详情](#lol-详情)
+    - [ninja](#忍者-列表)
     - [随机背景大图](#随机背景大图)
     - [获取 json 格式的天气](#获取-json-格式的天气)
     - [获取 xml 格式菜单](#获取-xml-格式菜单)
@@ -480,6 +481,38 @@ xhr.send('username=xxx')
     }
 }
 ```
+
+
+
+## 忍者-列表
+
+返回所有忍者数据
+
+* 请求地址:https://autumnfish.cn/api/ninja/search
+* 请求方法：get
+* 请求参数：无
+
+```json
+{
+  "code": 200,
+  "msg": "获取成功",
+  "data": [
+    {
+      "name": "猿飞日斩",
+      "icon": "http:https://game.gtimg.cn/images/hyrz/zlkdatasys/images/image/20180928/ac7b536850e29ae8553f0418fb440904.png",
+      "title": "「火影继承人」",
+      "class": [
+        "boy",
+        "a",
+        "muye"
+      ]
+    }
+  ]
+}
+
+```
+
+
 
 
 
