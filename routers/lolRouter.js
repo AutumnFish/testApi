@@ -32,11 +32,12 @@ router.get('/search', (req, res) => {
       msg: '获取成功',
       data:req.data
       .map(v => {
-        const { id, name, iconUrl } = v;
+        const { id, name, iconUrl,roles } = v;
         return {
           id,
           name,
-          iconUrl
+          iconUrl,
+          roles
         };
       })
     });
