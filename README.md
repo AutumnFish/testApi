@@ -439,11 +439,29 @@ xhr.send('username=xxx')
     "code": 200,
     "msg": "获取成功",
     "data": [
-        {
-            "id": "alistar",
-            "name": "阿利斯塔",
-            "iconUrl": "https://ossweb-img.qq.com/images/lol/img/champion/Alistar.png"
-        }
+              {
+                "heroId": "1",
+                "name": "黑暗之女",
+                "alias": "Annie",
+                "title": "安妮",
+                "roles": ["mage"],
+                "isWeekFree": "0",
+                "attack": "2",
+                "defense": "3",
+                "magic": "10",
+                "difficulty": "6",
+                "selectAudio": "https://game.gtimg.cn/images/lol/act/img/vo/choose/1.ogg",
+                "banAudio": "https://game.gtimg.cn/images/lol/act/img/vo/ban/1.ogg",
+                "isARAMweekfree": "0",
+                "ispermanentweekfree": "0",
+                "changeLabel": "无改动",
+                "goldPrice": "4800",
+                "couponPrice": "2000",
+                "camp": "",
+                "campId": "",
+                "keywords": "安妮,黑暗之女,火女,Annie,anni,heianzhinv,huonv,an,hazn,hn",
+                "icon": "http://game.gtimg.cn/images/lol/act/img/champion/Annie.png"
+              }
     ]
 }
 ```
@@ -468,16 +486,9 @@ xhr.send('username=xxx')
     "code": 200,
     "msg": "获取成功",
     "data": {
-        "id": "Sylas",
-        "title": "解脱者",
-        "name": "塞拉斯",
-        "iconUrl": "https://ossweb-img.qq.com/images/lol/img/champion/Sylas.png",
-        "story": "<h5>英雄故事:</h5>作为一个出生于德玛西亚穷苦家庭的法师，虽然当时塞拉斯还只是一个少年，搜魔人还是将他终身监禁。他使用偷来的魔法杀害了场上所有人，除了饱受惊吓的拉克丝。塞拉斯不是以逃犯的身份离开搜魔人监狱，而是成为了法师反抗的代表。",
-        "img": "http://ossweb-img.qq.com/images/lol/web201310/skin/big517000.jpg",
-        "roles": [
-            "法师",
-            "刺客"
-        ]
+        "hero":"英雄信息",
+        "skins":"皮肤信息",
+        "spells":"技能信息"
     }
 }
 ```

@@ -81,7 +81,9 @@ router.get('/info', async (req, res) => {
     const infoRes = await request.get(
       `https://game.gtimg.cn/images/lol/act/img/js/hero/${id}.js`
     )
-    res.send(infoRes)
+    res.send(new SuccessModel({
+      data:infoRes
+    }))
   } catch (error) {
     res.send(new ErrorModel({
       msg:'id有误,请检查'
