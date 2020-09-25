@@ -81,6 +81,8 @@ router.get('/info', async (req, res) => {
     const infoRes = await request.get(
       `https://game.gtimg.cn/images/lol/act/img/js/hero/${id}.js`
     )
+    // console.log(infoRes)
+    infoRes.hero.icon = `http://game.gtimg.cn/images/lol/act/img/champion/${infoRes.hero.alias}.png`
     res.send(new SuccessModel({
       data:infoRes
     }))
