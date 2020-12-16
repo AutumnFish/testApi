@@ -155,7 +155,7 @@ router.get('/page', (req, res) => {
       }
 
       // 计算总页数
-      const totalPage = Math.ceil(filterHero.length / pageSize)-1
+      const totalPage = Math.ceil(filterHero.length / pageSize) - 1
       // 判断索引是否越界
       if (pageNum > totalPage) {
         res.send({
@@ -220,10 +220,14 @@ router.get('/', (req, res) => {
   )
 })
 // 英雄新增
-router.post('/add', upload.single('heroIcon'), function(req, res, next) {
+router.post('/add', upload.single('heroIcon'), function (req, res, next) {
   // res.send(req.file)d
+  // return res.send({
+  //   ...req.body,
+  //   ...req.file
+  // })
   // fs.renameSync(path.join())
-  if (!req.body.heroName || !req.body.heroSkill || !req.body.file) {
+  if (!req.body.heroName || !req.body.heroSkill || !req.file) {
     res.send({
       msg: '参数不对哦',
       code: 400
@@ -261,9 +265,7 @@ router.post('/add', upload.single('heroIcon'), function(req, res, next) {
             msg: '新增成功',
             code: 201,
             info: {
-              heroIcon: `https://autumnfish.cn/api/cq/static/${
-                req.file.filename
-              }`,
+              heroIcon: `https://autumnfish.cn/api/cq/static/${req.file.filename}`,
               ...req.body
             }
           })
@@ -280,7 +282,7 @@ router.post('/add', upload.single('heroIcon'), function(req, res, next) {
 })
 
 // 文件上传错误处理
-router.use(function(err, req, res, next) {
+router.use(function (err, req, res, next) {
   if (err.code === 'LIMIT_FILE_SIZE') {
     res.send({
       msg: '文件太大啦',

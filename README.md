@@ -402,7 +402,7 @@ xhr.send('username=xxx')
 | :-------- | :------- | :------- |
 | heroName  | 英雄名   | 不能为空 |
 | heroIcon  | 技能图片 | 不能为空 |
-| skillName | 技能名   | 不能为空 |
+| heroSkill | 技能名   | 不能为空 |
 
 - 响应内容：JSON
 
