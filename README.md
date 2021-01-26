@@ -793,7 +793,7 @@ xhr.send('username=xxx')
 
 - 请求地址：http://www.liulongbin.top:3006/api/synthesize
 - 请求方法：get
-- 请求参数：key,info
+- 请求参数：text
 
 | 参数名 | 参数说明       | 备注 |
 | ------ | -------------- | ---- |
