@@ -760,7 +760,7 @@ xhr.send('username=xxx')
 ### 基础聊天
 
 - 请求地址：http://www.liulongbin.top:3006/api/robot
-- 请求方法：post
+- 请求方法：get
 - 请求参数：spoken
 
 | 参数名 | 参数说明           | 备注 |
