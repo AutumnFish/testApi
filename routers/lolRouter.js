@@ -65,7 +65,7 @@ router.get('/search', async (req, res) => {
   }
 })
 
-// 获取列表的笑话
+// 获取英雄详情
 router.get('/info', async (req, res) => {
   // 获取get的数据
   const { id } = req.query
@@ -83,14 +83,30 @@ router.get('/info', async (req, res) => {
     )
     // console.log(infoRes)
     infoRes.hero.icon = `http://game.gtimg.cn/images/lol/act/img/champion/${infoRes.hero.alias}.png`
-    res.send(new SuccessModel({
-      data:infoRes
-    }))
+    res.send(
+      new SuccessModel({
+        data: infoRes
+      })
+    )
   } catch (error) {
-    res.send(new ErrorModel({
-      msg:'id有误,请检查'
-    }))
+    res.send(
+      new ErrorModel({
+        msg: 'id有误,请检查'
+      })
+    )
   }
+})
+
+// 武器信息
+// 写路由规则 随机获取英雄数据
+router.get('/weapon', async (req, res) => {
+  // 获取所有的英雄数据
+  const getRes = await request.get(
+    'https://game.gtimg.cn/images/lol/act/img/js/items/items.js'
+  )
+  // 生成头像地址
+
+  res.send(new SuccessModel({ data: getRes.items }))
 })
 
 // 暴露出去
