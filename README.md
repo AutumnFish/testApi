@@ -40,6 +40,7 @@
     
         - [lol-查询](#lol-查询)
         - [lol-详情](#lol-详情)
+        - [lol-装备](#lol-装备)
     
     - [ninja](#忍者-列表)
     
@@ -575,6 +576,26 @@ xhr.send('username=xxx')
         "skins":"皮肤信息",
         "spells":"技能信息"
     }
+}
+```
+### lol-装备
+
+> 查询lol英雄详情
+
+- 请求地址：https://autumnfish.cn/api/lol/weapon
+- 请求方法：get
+- 请求参数：无
+
+
+
+
+- 响应内容：JSON
+
+```json
+{
+    "code": 200,
+    "msg": "获取成功",
+    "data": [装备信息]
 }
 ```
 
