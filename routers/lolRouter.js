@@ -100,13 +100,40 @@ router.get('/info', async (req, res) => {
 // 武器信息
 // 写路由规则 随机获取英雄数据
 router.get('/weapon', async (req, res) => {
+  const { q } = req.query
   // 获取所有的英雄数据
   const getRes = await request.get(
     'https://game.gtimg.cn/images/lol/act/img/js/items/items.js'
   )
-  // 生成头像地址
-
-  res.send(new SuccessModel({ data: getRes.items }))
+  // res.send(new SuccessModel({ data: getRes.items }))
+  // 没查询参数返回所有
+  if (!q) {
+    // 通过 axios获取所有并返回
+    res.send(
+      new SuccessModel({
+        data: getRes.items
+      })
+    )
+  } else {
+    // 查询一下数据
+    const filterRes = getRes.items.filter(v => {
+      return v.name.includes(q)
+    })
+    // 查到了
+    if (filterRes.length != 0) {
+      return res.send(
+        new SuccessModel({
+          data: filterRes
+        })
+      )
+    }
+    // 没查到
+    res.send(
+      new ErrorModel({
+        msg: '没查到,请重新查询!'
+      })
+    )
+  }
 })
 
 // 暴露出去
