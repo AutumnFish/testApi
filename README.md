@@ -5,57 +5,55 @@
 <!-- TOC -->
 
 - [testApi](#testapi)
-    - [支持的请求方法](#支持的请求方法)
-    
-    - [通用返回状态说明](#通用返回状态说明)
-    
-    - [笑话](#笑话)
-        - [获取一条随机笑话](#获取一条随机笑话)
-        - [获取多条随机笑话](#获取多条随机笑话)
-        
-    - [用户](#用户)
-      
-        - [用户验证](#用户验证)
-        - [用户注册](#用户注册)
-        - [用户注册-json格式数据提交](#用户注册-json格式数据提交)
-        
-    - [英雄](#英雄)
-        - [英雄外号查询](#英雄外号查询)
-        - [英雄简略信息查询](#英雄简略信息查询)
-        - [英雄详情查询](#英雄详情查询)
-        
-    - [克鲁塞德战纪](#克鲁塞德战纪)
-        - [角色查询](#角色查询)
-        - [角色查询带分页](#角色查询带分页)
-        - [根据类型查询角色](#根据类型查询角色)
-        - [角色技能动态图查询](#角色技能动态图查询)
-        - [角色新增](#角色新增)
-        
-    - [水果](#水果)
-    
-        - [水果列表](#水果列表)
-        - [水果详情](#水果详情)
-    
-    - [lol](#lol)
-    
-        - [lol-查询](#lol-查询)
-        - [lol-详情](#lol-详情)
-        - [lol-装备](#lol-装备)
-    
-    - [ninja](#忍者-列表)
-    
-    - [随机背景大图](#随机背景大图)
-    
-    - [获取 json 格式的天气](#获取-json-格式的天气)
-    
-    - [获取 xml 格式菜单](#获取-xml-格式菜单)
-    
-    - [聊天机器人](#聊天机器人)
-    
-        - [基础聊天](#基础聊天)
-        - [文字转语音](#文字转语音)
-    
-        ​    
+
+  - [支持的请求方法](#支持的请求方法)
+
+  - [通用返回状态说明](#通用返回状态说明)
+
+  - [笑话](#笑话)
+    - [获取一条随机笑话](#获取一条随机笑话)
+    - [获取多条随机笑话](#获取多条随机笑话)
+  - [用户](#用户)
+
+    - [用户验证](#用户验证)
+    - [用户注册](#用户注册)
+    - [用户注册-json 格式数据提交](#用户注册-json格式数据提交)
+
+  - [英雄](#英雄)
+    - [英雄外号查询](#英雄外号查询)
+    - [英雄简略信息查询](#英雄简略信息查询)
+    - [英雄详情查询](#英雄详情查询)
+  - [克鲁塞德战纪](#克鲁塞德战纪)
+    - [角色查询](#角色查询)
+    - [角色查询带分页](#角色查询带分页)
+    - [根据类型查询角色](#根据类型查询角色)
+    - [角色技能动态图查询](#角色技能动态图查询)
+    - [角色新增](#角色新增)
+  - [水果](#水果)
+
+    - [水果列表](#水果列表)
+    - [水果详情](#水果详情)
+
+  - [lol](#lol)
+
+    - [lol-查询](#lol-查询)
+    - [lol-详情](#lol-详情)
+    - [lol-装备](#lol-装备)
+
+  - [ninja](#忍者-列表)
+
+  - [随机背景大图](#随机背景大图)
+
+  - [获取 json 格式的天气](#获取-json-格式的天气)
+
+  - [获取 xml 格式菜单](#获取-xml-格式菜单)
+
+  - [聊天机器人](#聊天机器人)
+
+    - [基础聊天](#基础聊天)
+    - [文字转语音](#文字转语音)
+
+    ​
 
 <!-- /TOC -->
 
@@ -102,9 +100,10 @@
 - 请求方法：get
 - 请求参数：num
 
-  | 参数名 | 参数说明 | 备注 |
-  | :----- | :------- | :----------------------------------- |
-  | num | 笑话条数 | 类型为数字,不要给错了 |
+  | 参数名 | 参数说明 | 备注                  |
+  | :----- | :------- | :-------------------- |
+  | num    | 笑话条数 | 类型为数字,不要给错了 |
+
 - 响应内容：JSON
 
 ```json
@@ -163,16 +162,16 @@ xhr.send('username=xxx')
 
 - 响应内容：注册成功或失败
 
-### 用户注册-json格式数据提交
+### 用户注册-json 格式数据提交
 
-> 注册用户,可以用来测试axios
+> 注册用户,可以用来测试 axios
 
 - 请求地址：https://autumnfish.cn/api/user/reg
 - 请求方法：post
 - 请求参数：username
 
-| 参数名   | 参数说明 | 备注                                          |
-| :------- | :------- | :-------------------------------------------- |
+| 参数名   | 参数说明 | 备注     |
+| :------- | :------- | :------- |
 | username | 用户名   | 不能为空 |
 
 - 响应内容：注册成功或失败
@@ -281,9 +280,9 @@ xhr.send('username=xxx')
 - 请求方法：get
 - 请求参数：query
 
-| 参数名   | 参数说明 | 备注                       |
-| :------- | :------- | :------------------------- |
-| query    | 英雄名   | 可以为空，为空获取所有数据 |
+| 参数名 | 参数说明 | 备注                       |
+| :----- | :------- | :------------------------- |
+| query  | 英雄名   | 可以为空，为空获取所有数据 |
 
 - 响应内容：JSON
 
@@ -387,8 +386,6 @@ xhr.send('username=xxx')
 }
 ```
 
-
-
 ### 角色技能动态图查询
 
 > 查询英雄的 详细信息
@@ -397,18 +394,17 @@ xhr.send('username=xxx')
 - 请求方法：get
 - 请求参数：name
 
-| 参数名   | 参数说明 | 备注                       |
-| :------- | :------- | :------------------------- |
-| name    | 英雄名   | 不能为空   |
-
+| 参数名 | 参数说明 | 备注     |
+| :----- | :------- | :------- |
+| name   | 英雄名   | 不能为空 |
 
 - 响应内容：JSON
 
 ```json
 {
   "data": {
-      "skillGif": "http://p7.qhimg.com/dr/340__/t019779314457e6a37d.gif",
-      "heroName": "八神庵"
+    "skillGif": "http://p7.qhimg.com/dr/340__/t019779314457e6a37d.gif",
+    "heroName": "八神庵"
   },
   "msg": "八神庵的技能图片获取成功",
   "code": 200
@@ -433,31 +429,29 @@ xhr.send('username=xxx')
 
 ```json
 {
-    "msg": "新增成功",
-    "code": 201,
-    "info": {
-        "heroIcon": "https://autumnfish.cn/api/cq/static/5f89c6f2c695d7126d2768bda47fd7e9",
-        "heroName": "超级舞王",
-        "skillName": "跳舞"
-    }
+  "msg": "新增成功",
+  "code": 201,
+  "info": {
+    "heroIcon": "https://autumnfish.cn/api/cq/static/5f89c6f2c695d7126d2768bda47fd7e9",
+    "heroName": "超级舞王",
+    "skillName": "跳舞"
+  }
 }
 ```
 
 ## 水果
 
-
-
 ### 水果列表
 
 > 获取水果列表
 
-* 请求地址：https://autumnfish.cn/fruitApi/fruits
+- 请求地址：https://autumnfish.cn/fruitApi/fruits
 
-* 请求方法:  get
+- 请求方法: get
 
-* 请求参数：无
-* 响应内容：json
-  * icon：base64编码的图片直接可用
+- 请求参数：无
+- 响应内容：json
+  - icon：base64 编码的图片直接可用
 
 ```
 {
@@ -473,19 +467,17 @@ xhr.send('username=xxx')
 }
 ```
 
-
-
 ### 水果详情
 
 > 获取水果详情
 
-* 请求地址：  https://autumnfish.cn/fruitApi/fruit/:id
+- 请求地址： https://autumnfish.cn/fruitApi/fruit/:id
 
-* 请求方法:  get
+- 请求方法: get
 
-* 请求参数：id，在url中直接传递
-* 响应内容：json
-  * icon:base64的图片，直接设置给`src`即可使用
+- 请求参数：id，在 url 中直接传递
+- 响应内容：json
+  - icon:base64 的图片，直接设置给`src`即可使用
 
 ```
 {
@@ -501,93 +493,91 @@ xhr.send('username=xxx')
 }
 ```
 
-
-
 ## lol
 
 ### lol-查询
 
-> 查询lol英雄列表
+> 查询 lol 英雄列表
 
 - 请求地址：https://autumnfish.cn/api/lol/search
 - 请求方法：get
 - 请求参数：q
 
-| 参数名    | 参数说明 | 备注     |
-| :-------- | :------- | :------- |
-| q  | 英雄名   | 查询的关键字 |
-
+| 参数名 | 参数说明 | 备注         |
+| :----- | :------- | :----------- |
+| q      | 英雄名   | 查询的关键字 |
 
 - 响应内容：JSON
 
 ```json
 {
-    "code": 200,
-    "msg": "获取成功",
-    "data": [
-              {
-                "heroId": "1",
-                "name": "黑暗之女",
-                "alias": "Annie",
-                "title": "安妮",
-                "roles": ["mage"],
-                "isWeekFree": "0",
-                "attack": "2",
-                "defense": "3",
-                "magic": "10",
-                "difficulty": "6",
-                "selectAudio": "https://game.gtimg.cn/images/lol/act/img/vo/choose/1.ogg",
-                "banAudio": "https://game.gtimg.cn/images/lol/act/img/vo/ban/1.ogg",
-                "isARAMweekfree": "0",
-                "ispermanentweekfree": "0",
-                "changeLabel": "无改动",
-                "goldPrice": "4800",
-                "couponPrice": "2000",
-                "camp": "",
-                "campId": "",
-                "keywords": "安妮,黑暗之女,火女,Annie,anni,heianzhinv,huonv,an,hazn,hn",
-                "icon": "http://game.gtimg.cn/images/lol/act/img/champion/Annie.png"
-              }
-    ]
+  "code": 200,
+  "msg": "获取成功",
+  "data": [
+    {
+      "heroId": "1",
+      "name": "黑暗之女",
+      "alias": "Annie",
+      "title": "安妮",
+      "roles": ["mage"],
+      "isWeekFree": "0",
+      "attack": "2",
+      "defense": "3",
+      "magic": "10",
+      "difficulty": "6",
+      "selectAudio": "https://game.gtimg.cn/images/lol/act/img/vo/choose/1.ogg",
+      "banAudio": "https://game.gtimg.cn/images/lol/act/img/vo/ban/1.ogg",
+      "isARAMweekfree": "0",
+      "ispermanentweekfree": "0",
+      "changeLabel": "无改动",
+      "goldPrice": "4800",
+      "couponPrice": "2000",
+      "camp": "",
+      "campId": "",
+      "keywords": "安妮,黑暗之女,火女,Annie,anni,heianzhinv,huonv,an,hazn,hn",
+      "icon": "http://game.gtimg.cn/images/lol/act/img/champion/Annie.png"
+    }
+  ]
 }
 ```
 
 ### lol-详情
 
-> 查询lol英雄详情
+> 查询 lol 英雄详情
 
 - 请求地址：https://autumnfish.cn/api/lol/info
 - 请求方法：get
 - 请求参数：id
 
-| 参数名    | 参数说明 | 备注     |
-| :-------- | :------- | :------- |
-| id  | 英雄id   | 英雄id |
-
+| 参数名 | 参数说明 | 备注    |
+| :----- | :------- | :------ |
+| id     | 英雄 id  | 英雄 id |
 
 - 响应内容：JSON
 
 ```json
 {
-    "code": 200,
-    "msg": "获取成功",
-    "data": {
-        "hero":"英雄信息",
-        "skins":"皮肤信息",
-        "spells":"技能信息"
-    }
+  "code": 200,
+  "msg": "获取成功",
+  "data": {
+    "hero": "英雄信息",
+    "skins": "皮肤信息",
+    "spells": "技能信息"
+  }
 }
 ```
+
 ### lol-装备
 
-> 查询lol英雄详情
+> 查询 lol 英雄详情
 
 - 请求地址：https://autumnfish.cn/api/lol/weapon
 - 请求方法：get
-- 请求参数：无
+- 请求参数：q
 
-
-
+| 参数名 | 参数说明 | 备注         |
+| :----- | :------- | :----------- |
+| q      | 英雄名   | 查询的关键字 |
 
 - 响应内容：JSON
 
@@ -599,15 +589,13 @@ xhr.send('username=xxx')
 }
 ```
 
-
-
 ## 忍者-列表
 
 返回所有忍者数据
 
-* 请求地址:https://autumnfish.cn/api/ninja/search
-* 请求方法：get
-* 请求参数：无
+- 请求地址:https://autumnfish.cn/api/ninja/search
+- 请求方法：get
+- 请求参数：无
 
 ```json
 {
@@ -618,38 +606,27 @@ xhr.send('username=xxx')
       "name": "猿飞日斩",
       "icon": "http:https://game.gtimg.cn/images/hyrz/zlkdatasys/images/image/20180928/ac7b536850e29ae8553f0418fb440904.png",
       "title": "「火影继承人」",
-      "class": [
-        "boy",
-        "a",
-        "muye"
-      ]
+      "class": ["boy", "a", "muye"]
     }
   ]
 }
-
 ```
-
-
-
-
 
 ## 随机背景大图
 
-返回随机的lol英雄皮肤
+返回随机的 lol 英雄皮肤
 
-* 请求地址:https://autumnfish.cn/api/cover/random
-* 请求方法：get
-* 请求参数：无
+- 请求地址:https://autumnfish.cn/api/cover/random
+- 请求方法：get
+- 请求参数：无
 
 ```json
 {
-    "code": 200,
-    "msg": "获取成功",
-    "url": "http://ossweb-img.qq.com/images/lol/web201310/skin/big90000.jpg"
+  "code": 200,
+  "msg": "获取成功",
+  "url": "http://ossweb-img.qq.com/images/lol/web201310/skin/big90000.jpg"
 }
 ```
-
-
 
 ## 获取 json 格式的天气
 
@@ -733,8 +710,6 @@ xhr.send('username=xxx')
 - 请求方法：get
 - 请求参数：无
 
-
-
 - 响应内容：
 
 ```xml
@@ -775,8 +750,6 @@ xhr.send('username=xxx')
 ```
 
 ## 聊天机器人
-
-
 
 ### 基础聊天
 
@@ -820,7 +793,7 @@ xhr.send('username=xxx')
 | ------ | -------------- | ---- |
 | text   | 要转语音的文字 |      |
 
-- 响应内容：语音的url
+- 响应内容：语音的 url
 
 ```
 {
@@ -830,8 +803,8 @@ xhr.send('username=xxx')
 }
 ```
 
-| 参数名   | 类型   | 说明                                      |
-| -------- | ------ | ----------------------------------------- |
-| status   | int    | 请求是否成功，200：成功，否则失败         |
-| message  | string | 请求结果的描述消息                        |
-| voiceUrl | string | 语音消息的URL地址，可通过 `` 标签进行播放 |
+| 参数名   | 类型   | 说明                                        |
+| -------- | ------ | ------------------------------------------- |
+| status   | int    | 请求是否成功，200：成功，否则失败           |
+| message  | string | 请求结果的描述消息                          |
+| voiceUrl | string | 语音消息的 URL 地址，可通过 `` 标签进行播放 |
