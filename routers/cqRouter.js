@@ -5,11 +5,6 @@ const router = express.Router()
 var multer = require('multer')
 var upload = multer({
   dest: path.join(__dirname, '../uploads')
-  // limits: {
-  //   //在这里设置最多能上传多少个文件，那么就不用在下面upload.array('field1', 5)设置了
-  //   files: 1, //一次只允许上传一个文件
-  //   fileSize: 1000 * 1024 // 设置文件大小不能超过1000*1024
-  // }
 })
 // 托管静态资源
 router.use('/static', express.static(path.join(__dirname, '../uploads')))
@@ -115,6 +110,7 @@ router.get('/page', (req, res) => {
       // 获取查询字符串
       const query = req.query.query || ''
       const filterHero = cq
+        .reverse()
         .filter(v => {
           // console.log(v);
           if (!v.skillName) {
@@ -133,7 +129,8 @@ router.get('/page', (req, res) => {
           return {
             name: v.heroName,
             icon: v.heroIcon,
-            skill: v.skillName
+            skill: v.skillName,
+            id: v.id
           }
         })
       // 获取 页码
@@ -209,7 +206,8 @@ router.get('/', (req, res) => {
           return {
             name: v.heroName,
             icon: v.heroIcon,
-            skill: v.skillName
+            skill: v.skillName,
+            id: v.id
           }
         })
       res.send({
@@ -254,7 +252,9 @@ router.post('/add', upload.single('heroIcon'), function (req, res, next) {
       }
       cq.push({
         heroIcon: `https://autumnfish.cn/api/cq/static/${req.file.filename}`,
-        ...req.body
+        ...req.body,
+        id: Date.now(),
+        skillName: req.body.heroSkill
       })
       // 保存
       fs.writeFile(
@@ -279,6 +279,70 @@ router.post('/add', upload.single('heroIcon'), function (req, res, next) {
   //   code:201,
   //   url:`localhost:8888/cq/static/${req.file.filename}`
   // })
+})
+
+router.delete('/:id', (req, res) => {
+  fs.readFile(
+    path.join(__dirname, '../data/cqSimple.json'),
+    'utf-8',
+    (err, data) => {
+      const arr = JSON.parse(data)
+      const _arr = arr.filter(v => v.id !== +req.params.id)
+      if (_arr.length === arr) {
+        return res.send({
+          msg: '参数有误',
+          code: 204
+        })
+      }
+      fs.writeFile(
+        path.join(__dirname, '../data/cqSimple.json'),
+        JSON.stringify(_arr),
+        err => {
+          if (!err) {
+            res.send({
+              msg: '删除成功',
+              code: 204
+            })
+          } else {
+            res.send({
+              msg: '服务器内部错误',
+              code: 500
+            })
+          }
+        }
+      )
+    }
+  )
+})
+
+router.get('/reset/:sec', (req, res) => {
+  if (req.params.sec === 'autumnfish') {
+    fs.readFile(
+      path.join(__dirname, '../data/_cqSimple.json'),
+      'utf-8',
+      (err, data) => {
+        if (!err) {
+          fs.writeFile(
+            path.join(__dirname, '../data/cqSimple.json'),
+            data,
+            err => {
+              if (!err) {
+                res.send({
+                  code: 200,
+                  msg: '重置成功'
+                })
+              } else {
+                res.send({
+                  code: 500,
+                  msg: '服务器内部错误'
+                })
+              }
+            }
+          )
+        }
+      }
+    )
+  }
 })
 
 // 文件上传错误处理
