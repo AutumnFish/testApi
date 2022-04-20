@@ -192,6 +192,7 @@ router.get('/', (req, res) => {
       // 获取查询字符串
       const query = req.query.query || ''
       const filterHero = cq
+       .reverse()
         .filter(v => {
           try {
             return (
