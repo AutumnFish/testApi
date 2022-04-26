@@ -4,7 +4,10 @@ const path = require('path')
 const router = express.Router()
 var multer = require('multer')
 var upload = multer({
-  dest: path.join(__dirname, '../uploads')
+  dest: path.join(__dirname, '../uploads'),
+  limits: {
+    fileSize: 10240
+  }
 })
 // 托管静态资源
 router.use('/static', express.static(path.join(__dirname, '../uploads')))
@@ -192,7 +195,7 @@ router.get('/', (req, res) => {
       // 获取查询字符串
       const query = req.query.query || ''
       const filterHero = cq
-       .reverse()
+        .reverse()
         .filter(v => {
           try {
             return (
@@ -328,6 +331,12 @@ router.get('/reset/:sec', (req, res) => {
             data,
             err => {
               if (!err) {
+                try {
+                  const res = fs.readdirSync(path.join(__dirname, '../uploads'))
+                  res.forEach(v => {
+                    fs.unlinkSync(path.join(__dirname, `../uploads/${v}`))
+                  })
+                } catch (error) {}
                 res.send({
                   code: 200,
                   msg: '重置成功'
@@ -343,6 +352,8 @@ router.get('/reset/:sec', (req, res) => {
         }
       }
     )
+  } else {
+    res.status(404)
   }
 })
 
@@ -350,7 +361,7 @@ router.get('/reset/:sec', (req, res) => {
 router.use(function (err, req, res, next) {
   if (err.code === 'LIMIT_FILE_SIZE') {
     res.send({
-      msg: '文件太大啦',
+      msg: '文件太大啦,限制为10kb',
       code: 400
     })
     return
