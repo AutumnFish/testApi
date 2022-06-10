@@ -2,6 +2,7 @@ const express = require('express')
 const fs = require('fs')
 const path = require('path')
 const router = express.Router()
+const { ErrorModel, SuccessModel } = require('../model/responseModel')
 
 // 写路由规则 随机获取笑话
 router.get('/', (req, res) => {
@@ -39,7 +40,7 @@ router.get('/list', (req, res) => {
           if (num <= jokes.length) {
             // 随机索引数组
             let randomIndexArr = []
-            function getRandomIndex() {
+            function getRandomIndex () {
               let randomIndex = parseInt(Math.random() * jokes.length)
               if (randomIndex >= jokes.length - 1) {
                 randomIndex = jokes.length - 1
@@ -55,31 +56,39 @@ router.get('/list', (req, res) => {
             }
             getRandomIndex()
             // 获取随机的索引
-            let  randomJokes = []
-            randomIndexArr.forEach(v=>{
+            let randomJokes = []
+            randomIndexArr.forEach(v => {
               randomJokes.push(jokes[v])
             })
 
-            res.send({
-              msg:`获取${randomJokes.length}条笑话`,
-              jokes:randomJokes
-            })
+            res.send(
+              new SuccessModel({
+                msg: `获取${randomJokes.length}条笑话`,
+                data: randomJokes
+              })
+            )
           } else {
-            res.send({
-              msg:`num超过了最大值，目前只有${jokes.length}条笑话`
-            })
+            res.send(
+              new ErrorModel({
+                msg: `num超过了最大值，目前只有${jokes.length}条笑话`
+              })
+            )
           }
         }
       )
     } else {
-      res.send({
-        msg: 'num的类型不对哦'
-      })
+      res.send(
+        new ErrorModel({
+          msg: 'num的类型不对哦'
+        })
+      )
     }
   } else {
-    res.send({
-      msg: '请传递num参数'
-    })
+    res.send(
+      new ErrorModel({
+        msg: '请传递num参数'
+      })
+    )
   }
 })
 
