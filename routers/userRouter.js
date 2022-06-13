@@ -50,7 +50,7 @@ router.post('/check', parser, jsonParser, checkParams, (req, res) => {
 })
 
 // 用户注册 - 基于form数据
-router.post('/register', parser, checkParams, (req, res) => {
+router.post('/register', parser, jsonParser, checkParams, (req, res) => {
   fs.readFile(fileName, (err, data) => {
     let userList = JSON.parse(data)
     // 检查是否已经存在
@@ -58,7 +58,7 @@ router.post('/register', parser, checkParams, (req, res) => {
       return v === req.body.username
     })
     // 判断
-    if (filterRes === 0) {
+    if (filterRes) {
       res.send(
         new ErrorModel({
           msg: '该用户名已被注册，请重新提交'
@@ -104,6 +104,25 @@ router.post('/reg', jsonParser, checkParams, (req, res) => {
       })
     }
   })
+})
+router.get('/reset/:sec', (req, res) => {
+  if (req.params.sec === 'autumnfish') {
+    fs.writeFile(path.join(__dirname, '../data/user.json'), '[]', err => {
+      if (!err) {
+        res.send({
+          code: 200,
+          msg: '重置成功'
+        })
+      } else {
+        res.send({
+          code: 500,
+          msg: '服务器内部错误'
+        })
+      }
+    })
+  } else {
+    res.status(404).send(`404 not found`)
+  }
 })
 
 // 暴露出去
