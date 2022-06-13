@@ -1,3 +1,5 @@
+# 说明：
+考虑到国内小伙伴的访问速度，本仓库也在码云上同步啦 地址如下: https://gitee.com/westblueflower/testApi
 # testApi
 
 下面列出的接口基本都是可以直接使用的，如有问题记得告诉我哦
