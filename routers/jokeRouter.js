@@ -3,6 +3,7 @@ const fs = require('fs')
 const path = require('path')
 const router = express.Router()
 const { ErrorModel, SuccessModel } = require('../model/responseModel')
+const _ = require('lodash')
 
 router.use((req, res, next) => {
   if (!req.jokes) {
@@ -44,27 +45,7 @@ router.get('/list', (req, res) => {
       const jokes = req.jokes
       if (num <= jokes.length) {
         // 随机索引数组
-        let randomIndexArr = []
-        function getRandomIndex () {
-          let randomIndex = parseInt(Math.random() * jokes.length)
-          if (randomIndex >= jokes.length - 1) {
-            randomIndex = jokes.length - 1
-          }
-          if (randomIndexArr.indexOf(randomIndex) != -1) {
-            getRandomIndex()
-          } else {
-            randomIndexArr.push(randomIndex)
-            if (randomIndexArr.length < num) {
-              getRandomIndex()
-            }
-          }
-        }
-        getRandomIndex()
-        // 获取随机的索引
-        let randomJokes = []
-        randomIndexArr.forEach(v => {
-          randomJokes.push(jokes[v])
-        })
+        const randomJokes = _.sampleSize(req.jokes, num)
 
         res.send(
           new SuccessModel({
