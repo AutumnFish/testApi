@@ -36,43 +36,58 @@ const checkParams = function (req, res, next) {
 // 注册验证
 router.post('/check', parser, jsonParser, checkParams, (req, res) => {
   fs.readFile(fileName, (err, data) => {
-    const userList = JSON.parse(data)
+    let userList
+    try {
+      userList = JSON.parse(data)
+      const filterOne = userList.find(v => {
+        return v === req.body.username
+      })
+      res.send(
+        !filterOne
+          ? new SuccessModel({ msg: '恭喜你可以注册哦' })
+          : new ErrorModel({ msg: '很遗憾,已被注册!' })
+      )
+    } catch (error) {
+      fs.writeFile(fileName, '[]', err => {
+        res.send(new ErrorModel({ msg: '服务器异常,数据重置，请重试' }))
+      })
+    }
     // 查找是否有匹配的
-    const filterOne = userList.filter(v => {
-      return v === req.body.username
-    })
-    res.send(
-      filterOne.length == 0
-        ? new SuccessModel({ msg: '恭喜你可以注册哦' })
-        : new ErrorModel({ msg: '很遗憾,已被注册!' })
-    )
   })
 })
 
 // 用户注册 - 基于form数据
-router.post('/register', parser, checkParams, (req, res) => {
+router.post('/register', parser, jsonParser, checkParams, (req, res) => {
   fs.readFile(fileName, (err, data) => {
-    let userList = JSON.parse(data)
-    // 检查是否已经存在
-    const filterRes = userList.find(v => {
-      return v === req.body.username
-    })
-    // 判断
-    if (filterRes === 0) {
-      res.send(
-        new ErrorModel({
-          msg: '该用户名已被注册，请重新提交'
-        })
-      )
-    } else {
-      userList.push(req.body.username)
-      // 保存文件
-      fs.writeFile(fileName, JSON.stringify(userList), err => {
+    let userList
+    try {
+      userList = JSON.parse(data)
+      // 检查是否已经存在
+      const filterRes = userList.find(v => {
+        return v === req.body.username
+      })
+
+      // 判断
+      if (filterRes) {
         res.send(
-          new SuccessModel({
-            msg: '注册成功'
+          new ErrorModel({
+            msg: '该用户名已被注册，请重新提交'
           })
         )
+      } else {
+        userList.push(req.body.username)
+        // 保存文件
+        fs.writeFile(fileName, JSON.stringify(userList), err => {
+          res.send(
+            new SuccessModel({
+              msg: '注册成功'
+            })
+          )
+        })
+      }
+    } catch (error) {
+      fs.writeFile(fileName, '[]', err => {
+        res.send(new ErrorModel({ msg: '服务器异常,数据重置，请重试' }))
       })
     }
   })
@@ -104,6 +119,25 @@ router.post('/reg', jsonParser, checkParams, (req, res) => {
       })
     }
   })
+})
+router.get('/reset/:sec', (req, res) => {
+  if (req.params.sec === 'autumnfish') {
+    fs.writeFile(path.join(__dirname, '../data/user.json'), '[]', err => {
+      if (!err) {
+        res.send({
+          code: 200,
+          msg: '重置成功'
+        })
+      } else {
+        res.send({
+          code: 500,
+          msg: '服务器内部错误'
+        })
+      }
+    })
+  } else {
+    res.status(404).send(`404 not found`)
+  }
 })
 
 // 暴露出去

@@ -4,23 +4,32 @@ const path = require('path')
 const router = express.Router()
 const { ErrorModel, SuccessModel } = require('../model/responseModel')
 
+router.use((req, res, next) => {
+  if (!req.jokes) {
+    fs.readFile(
+      path.join(__dirname, '../data/jokes.json'),
+      'utf-8',
+      (err, data) => {
+        // 获取笑话数组
+        const jokes = JSON.parse(data)
+        req.jokes = jokes
+        next()
+      }
+    )
+  } else {
+    next()
+  }
+})
+
 // 写路由规则 随机获取笑话
 router.get('/', (req, res) => {
-  fs.readFile(
-    path.join(__dirname, '../data/jokes.json'),
-    'utf-8',
-    (err, data) => {
-      // 获取笑话数组
-      const jokes = JSON.parse(data)
-      // console.log(jokes);
-      // 获取随机的索引
-      let randomIndex = parseInt(Math.random() * jokes.length)
-      if (randomIndex >= jokes.length - 1) {
-        randomIndex = jokes.length - 1
-      }
-      res.send(jokes[randomIndex])
-    }
-  )
+  const jokes = req.jokes
+  // 获取随机的索引
+  let randomIndex = parseInt(Math.random() * jokes.length)
+  if (randomIndex >= jokes.length - 1) {
+    randomIndex = jokes.length - 1
+  }
+  res.send(jokes[randomIndex])
 })
 
 // 获取列表的笑话
@@ -31,51 +40,45 @@ router.get('/list', (req, res) => {
     const num = parseInt(req.query.num)
     // console.log(num)
     if (!isNaN(num)) {
-      fs.readFile(
-        path.join(__dirname, '../data/jokes.json'),
-        'utf-8',
-        (err, data) => {
-          // 获取笑话数组
-          const jokes = JSON.parse(data)
-          if (num <= jokes.length) {
-            // 随机索引数组
-            let randomIndexArr = []
-            function getRandomIndex () {
-              let randomIndex = parseInt(Math.random() * jokes.length)
-              if (randomIndex >= jokes.length - 1) {
-                randomIndex = jokes.length - 1
-              }
-              if (randomIndexArr.indexOf(randomIndex) != -1) {
-                getRandomIndex()
-              } else {
-                randomIndexArr.push(randomIndex)
-                if (randomIndexArr.length < num) {
-                  getRandomIndex()
-                }
-              }
-            }
+      // 获取笑话数组
+      const jokes = req.jokes
+      if (num <= jokes.length) {
+        // 随机索引数组
+        let randomIndexArr = []
+        function getRandomIndex () {
+          let randomIndex = parseInt(Math.random() * jokes.length)
+          if (randomIndex >= jokes.length - 1) {
+            randomIndex = jokes.length - 1
+          }
+          if (randomIndexArr.indexOf(randomIndex) != -1) {
             getRandomIndex()
-            // 获取随机的索引
-            let randomJokes = []
-            randomIndexArr.forEach(v => {
-              randomJokes.push(jokes[v])
-            })
-
-            res.send(
-              new SuccessModel({
-                msg: `获取${randomJokes.length}条笑话`,
-                data: randomJokes
-              })
-            )
           } else {
-            res.send(
-              new ErrorModel({
-                msg: `num超过了最大值，目前只有${jokes.length}条笑话`
-              })
-            )
+            randomIndexArr.push(randomIndex)
+            if (randomIndexArr.length < num) {
+              getRandomIndex()
+            }
           }
         }
-      )
+        getRandomIndex()
+        // 获取随机的索引
+        let randomJokes = []
+        randomIndexArr.forEach(v => {
+          randomJokes.push(jokes[v])
+        })
+
+        res.send(
+          new SuccessModel({
+            msg: `获取${randomJokes.length}条笑话`,
+            data: randomJokes
+          })
+        )
+      } else {
+        res.send(
+          new ErrorModel({
+            msg: `num超过了最大值，目前只有${jokes.length}条笑话`
+          })
+        )
+      }
     } else {
       res.send(
         new ErrorModel({
