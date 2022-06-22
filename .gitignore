@@ -60,3 +60,7 @@ typings/
 
 # next.js build output
 .next
+
+
+# 上传文件
+uploads/
