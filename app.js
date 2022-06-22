@@ -17,6 +17,8 @@ const lol = require('./routers/lolRouter.js')
 const cover = require('./routers/coverRouter')
 // 导入ninja路由
 const ninja = require('./routers/ninjaRouter')
+// 导入测试form提交数据
+const form = require('./routers/formRouter')
 // 导入cors允许跨域
 const cors = require('cors')
 // 导入express日志插件
@@ -55,6 +57,8 @@ app.use('/lol', lol)
 app.use('/cover', cover)
 // 添加路由 - ninja路由
 app.use('/ninja', ninja)
+// 添加路由 - form路由
+app.use('/form', form)
 
 // 开启监听
 const server = app.listen(8888, () => {
