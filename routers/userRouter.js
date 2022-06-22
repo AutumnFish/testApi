@@ -86,6 +86,7 @@ router.post('/register', parser, jsonParser, checkParams, (req, res) => {
         })
       }
     } catch (error) {
+      console.log('/api/user/register接口异常')
       fs.writeFile(fileName, '[]', err => {
         res.send(new ErrorModel({ msg: '服务器异常,数据重置，请重试' }))
       })
@@ -95,29 +96,38 @@ router.post('/register', parser, jsonParser, checkParams, (req, res) => {
 
 router.post('/reg', jsonParser, checkParams, (req, res) => {
   fs.readFile(fileName, (err, data) => {
-    let userList = JSON.parse(data)
-    // 检查是否已经存在
-    const filterRes = userList.find(v => {
-      return v === req.body.username
-    })
-    // 判断
-    if (filterRes === true) {
-      res.send(
-        new ErrorModel({
-          msg: '已被注册，请检查'
-        })
-      )
-    } else {
-      userList.push(req.body.username)
-      // 保存文件
-      fs.writeFile(fileName, JSON.stringify(userList), err => {
+    let userList
+    try {
+      userList= JSON.parse(data)
+      // 检查是否已经存在
+      const filterRes = userList.find(v => {
+        return v === req.body.username
+      })
+      // 判断
+      if (filterRes === true) {
         res.send(
-          new SuccessModel({
-            msg: '注册成功'
+          new ErrorModel({
+            msg: '已被注册，请检查'
           })
         )
+      } else {
+        userList.push(req.body.username)
+        // 保存文件
+        fs.writeFile(fileName, JSON.stringify(userList), err => {
+          res.send(
+            new SuccessModel({
+              msg: '注册成功'
+            })
+          )
+        })
+      }
+    } catch (error) {
+      console.log('/api/user/reg接口异常')
+      fs.writeFile(fileName, '[]', err => {
+        res.send(new ErrorModel({ msg: '服务器异常,数据重置，请重试' }))
       })
     }
+
   })
 })
 router.get('/reset/:sec', (req, res) => {
