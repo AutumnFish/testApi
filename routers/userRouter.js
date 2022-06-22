@@ -86,6 +86,7 @@ router.post('/register', parser, jsonParser, checkParams, (req, res) => {
         })
       }
     } catch (error) {
+      console.log('/api/user/register接口异常')
       fs.writeFile(fileName, '[]', err => {
         res.send(new ErrorModel({ msg: '服务器异常,数据重置，请重试' }))
       })
@@ -121,6 +122,7 @@ router.post('/reg', jsonParser, checkParams, (req, res) => {
         })
       }
     } catch (error) {
+      console.log('/api/user/reg接口异常')
       fs.writeFile(fileName, '[]', err => {
         res.send(new ErrorModel({ msg: '服务器异常,数据重置，请重试' }))
       })
