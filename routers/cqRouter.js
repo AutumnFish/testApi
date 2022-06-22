@@ -353,7 +353,7 @@ router.get('/reset/:sec', (req, res) => {
       }
     )
   } else {
-    res.status(404)
+    res.status(404).send('404 Not Found')
   }
 })
 
