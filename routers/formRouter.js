@@ -19,10 +19,11 @@ function checkFileType (file, cb) {
   if (mimetype && extname) {
     return cb(null, true)
   } else {
-    cb('只能上传文件')
+    cb('只能上传图片')
   }
 }
 
+// 上传头像+各类验证
 const upload = multer({
   storage: multer.diskStorage({
     destination (req, file, cb) {
@@ -73,6 +74,34 @@ router.post('/submit', parser, (req, res) => {
   })
 })
 
+// FormData提交数据
+router.post('/formdata', upload, (req, res) => {
+  // if (!req.file) {
+  //   res.send({
+  //     msg: '请上传文件',
+  //     code: 400
+  //   })
+  //   return
+  // }
+  // 获取所有的图片
+  if (!req.body) {
+   return res.send({
+      code: 400,
+      msg: '没有数据',
+    
+    })
+  }
+  res.send({
+    code: 200,
+    msg: `测试成功`,
+    data: {
+      ...req.body,
+      avatar: req.file?`https://autumnfish.cn/api/form/static/test/${req.file.filename}`:'未上传头像'
+    }
+  })
+
+})
+
 // 写路由规则 随机 图片
 router.post('/upload', upload, (req, res) => {
   if (!req.file) {
@@ -107,9 +136,10 @@ router.get('/reset/:sec', upload, (req, res) => {
 })
 
 router.use(function (err, req, res, next) {
+  console.log(err)
   if (err.code === 'LIMIT_FILE_SIZE') {
     res.send({
-      msg: '文件太大啦,限制为100kb',
+      msg: '图片太大啦,限制为100kb',
       code: 400
     })
     return
