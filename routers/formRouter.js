@@ -5,49 +5,10 @@ const path = require('path')
 const fs = require('fs')
 // 注册bodyParser中间件
 const parser = bodyParser.urlencoded({ extended: false })
+const jsonParser = bodyParser.json()
+
 const router = express.Router()
-const multer = require('multer')
-
-function checkFileType (file, cb) {
-  // Allowed ext
-  const filetypes = /jpeg|jpg|png|gif/
-  // Check ext
-  const extname = filetypes.test(path.extname(file.originalname).toString())
-  // Check mime
-  const mimetype = filetypes.test(file.mimetype)
-
-  if (mimetype && extname) {
-    return cb(null, true)
-  } else {
-    cb('只能上传图片')
-  }
-}
-
-// 上传头像+各类验证
-const upload = multer({
-  storage: multer.diskStorage({
-    destination (req, file, cb) {
-      cb(null, path.join(__dirname, '../uploads/test'))
-    },
-    filename: function (req, file, cb) {
-      cb(
-        null,
-        file.fieldname +
-          '-' +
-          Date.now() +
-          '.' +
-          file.originalname.split('.')[1]
-      )
-    }
-  }),
-  fileFilter (req, file, cb) {
-    checkFileType(file, cb)
-  },
-  limits: {
-    fileSize: 102400
-  }
-}).single('avatar')
-
+const upload = require('../utils/uploader').single('avatar')
 router.use(
   '/static/test',
   express.static(path.join(__dirname, '../uploads/test'))
@@ -76,18 +37,11 @@ router.post('/submit', parser, (req, res) => {
 
 // FormData提交数据
 router.post('/formdata', upload, (req, res) => {
-  // if (!req.file) {
-  //   res.send({
-  //     msg: '请上传文件',
-  //     code: 400
-  //   })
-  //   return
-  // }
   // 获取所有的图片
   if (!req.body) {
    return res.send({
       code: 400,
-      msg: '没有数据',
+      msg: '没有数据,请通过 multipart/form-data 提交',
     
     })
   }
@@ -99,7 +53,42 @@ router.post('/formdata', upload, (req, res) => {
       avatar: req.file?`https://autumnfish.cn/api/form/static/test/${req.file.filename}`:'未上传头像'
     }
   })
-
+})
+// json提交数据
+router.post('/json', jsonParser, (req, res) => {
+  // 获取所有的图片
+  if (!req.body) {
+   return res.send({
+      code: 400,
+      msg: '没有数据,请通过 application/json 提交',
+    
+    })
+  }
+  res.send({
+    code: 200,
+    msg: `测试成功`,
+    data: {
+      ...req.body,
+    }
+  })
+})
+// json提交数据
+router.post('/urlencoded', parser, (req, res) => {
+  // 获取所有的图片
+  if (!req.body) {
+   return res.send({
+      code: 400,
+      msg: '没有数据,请通过 application/x-www-form-urlencoded 提交',
+    
+    })
+  }
+  res.send({
+    code: 200,
+    msg: `测试成功`,
+    data: {
+      ...req.body,
+    }
+  })
 })
 
 // 写路由规则 随机 图片
