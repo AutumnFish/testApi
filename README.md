@@ -104,8 +104,19 @@
 > 测试`FormData`上传文件
 
 - 请求地址：https://autumnfish.cn/api/form/upload
+
 - 请求方法：post
-- 请求参数：`avatar`，通过`FormData`提交
+
+- 请求参数：
+
+  - `avatar`，通过`FormData`提交
+  - 上传超过1m的文件，服务器会提示413错误
+
+  | 参数名   | 参数说明                  | 备注 |
+  | :------- | :------------------------ | :--- |
+  | `avatar` | 头像（图片，小于`100kb`） |      |
+
+  
 
 - 接口说明：接收上传的头像，并返回在线地址
 
@@ -121,21 +132,59 @@
 
 - 请求地址：https://autumnfish.cn/api/form/formdata
 
-- 请求方法：post
+- 请求方法：`post`
 
 - 请求参数：
 
-  - `content-type`为 `multipart/form-data` 
+  - 说明:`content-type`为 `multipart/form-data` 
 
-  | 参数名   | 参数说明                  | 备注                     |
-  | :------- | :------------------------ | :----------------------- |
-  | `avatar` | 头像（图片，小于`100kb`） | 头像只能为该字段         |
-  | 随意     | 文本类字段随意，测试用    | 根据需求可以添加任意多个 |
+  | 参数名   | 参数说明                            | 备注                     |
+  | :------- | :---------------------------------- | :----------------------- |
+  | `avatar` | 头像（图片，小于`100kb`），可以省略 | 头像只能为该字段         |
+  | 随意     | 文本类字段随意，测试用              | 根据需求可以添加任意多个 |
 
   
 
-- 接口说明：接收上传的头像，并返回在线地址
+- 接口说明：图片返回在线地址，其他字段直接返回
 
+
+
+### application/json数据提交
+
+> 测试`application/json`提交数据
+
+- 请求地址：https://autumnfish.cn/api/form/json
+
+- 请求方法：`post`
+
+- 请求参数：
+
+  - 说明:`content-type`为 `application/json` 
+
+  | 参数名 | 参数说明               | 备注                     |
+  | :----- | :--------------------- | :----------------------- |
+  | 随意   | 文本类字段随意，测试用 | 根据需求可以添加任意多个 |
+
+
+
+
+
+
+### application/x-www-form-urlencoded数据提交
+
+> 测试`application/x-www-form-urlencoded`提交数据
+
+- 请求地址：https://autumnfish.cn/api/form/urlencoded
+
+- 请求方法：`post`
+
+- 请求参数：
+
+  - 说明:`content-type`为 `application/x-www-form-urlencoded` 
+
+  | 参数名 | 参数说明               | 备注                     |
+  | :----- | :--------------------- | :----------------------- |
+  | 随意   | 文本类字段随意，测试用 | 根据需求可以添加任意多个 |
 
 
 
