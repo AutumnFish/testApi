@@ -39,10 +39,9 @@ router.post('/submit', parser, (req, res) => {
 router.post('/formdata', upload, (req, res) => {
   // 获取所有的图片
   if (!req.body) {
-   return res.send({
+    return res.send({
       code: 400,
-      msg: '没有数据,请通过 multipart/form-data 提交',
-    
+      msg: '没有数据,请通过 multipart/form-data 提交'
     })
   }
   res.send({
@@ -50,7 +49,9 @@ router.post('/formdata', upload, (req, res) => {
     msg: `测试成功`,
     data: {
       ...req.body,
-      avatar: req.file?`https://autumnfish.cn/api/form/static/test/${req.file.filename}`:'未上传头像'
+      avatar: req.file
+        ? `https://autumnfish.cn/api/form/static/test/${req.file.filename}`
+        : '未上传头像'
     }
   })
 })
@@ -58,17 +59,16 @@ router.post('/formdata', upload, (req, res) => {
 router.post('/json', jsonParser, (req, res) => {
   // 获取所有的图片
   if (!req.body) {
-   return res.send({
+    return res.send({
       code: 400,
-      msg: '没有数据,请通过 application/json 提交',
-    
+      msg: '没有数据,请通过 application/json 提交'
     })
   }
   res.send({
     code: 200,
     msg: `测试成功`,
     data: {
-      ...req.body,
+      ...req.body
     }
   })
 })
@@ -76,17 +76,16 @@ router.post('/json', jsonParser, (req, res) => {
 router.post('/urlencoded', parser, (req, res) => {
   // 获取所有的图片
   if (!req.body) {
-   return res.send({
+    return res.send({
       code: 400,
-      msg: '没有数据,请通过 application/x-www-form-urlencoded 提交',
-    
+      msg: '没有数据,请通过 application/x-www-form-urlencoded 提交'
     })
   }
   res.send({
     code: 200,
     msg: `测试成功`,
     data: {
-      ...req.body,
+      ...req.body
     }
   })
 })
@@ -128,7 +127,7 @@ router.use(function (err, req, res, next) {
   console.log(err)
   if (err.code === 'LIMIT_FILE_SIZE') {
     res.send({
-      msg: '图片太大啦,限制为100kb',
+      msg: '图片太大啦,限制为500kb',
       code: 400
     })
     return
