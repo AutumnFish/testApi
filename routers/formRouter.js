@@ -75,7 +75,7 @@ router.post('/json', jsonParser, (req, res) => {
 // json提交数据
 router.post('/urlencoded', parser, (req, res) => {
   // 获取所有的图片
-  if (!req.body) {
+  if (!req.body && Object.keys(req.body).length === 0) {
     return res.send({
       code: 400,
       msg: '没有数据,请通过 application/x-www-form-urlencoded 提交'
