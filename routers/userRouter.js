@@ -98,7 +98,7 @@ router.post('/reg', jsonParser, checkParams, (req, res) => {
   fs.readFile(fileName, (err, data) => {
     let userList
     try {
-      userList= JSON.parse(data)
+      userList = JSON.parse(data)
       // 检查是否已经存在
       const filterRes = userList.find(v => {
         return v === req.body.username
@@ -127,7 +127,6 @@ router.post('/reg', jsonParser, checkParams, (req, res) => {
         res.send(new ErrorModel({ msg: '服务器异常,数据重置，请重试' }))
       })
     }
-
   })
 })
 router.get('/reset/:sec', (req, res) => {

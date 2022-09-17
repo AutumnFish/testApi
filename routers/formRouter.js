@@ -124,7 +124,7 @@ router.get('/reset/:sec', upload, (req, res) => {
 })
 
 router.use(function (err, req, res, next) {
-  console.log(err)
+  // console.log(err)
   if (err.code === 'LIMIT_FILE_SIZE') {
     res.send({
       msg: '图片太大啦,限制为500kb',
