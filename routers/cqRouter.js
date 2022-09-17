@@ -223,12 +223,6 @@ router.get('/', (req, res) => {
 })
 // 英雄新增
 router.post('/add', upload.single('heroIcon'), function (req, res, next) {
-  // res.send(req.file)d
-  // return res.send({
-  //   ...req.body,
-  //   ...req.file
-  // })
-  // fs.renameSync(path.join())
   if (!req.body.heroName || !req.body.heroSkill || !req.file) {
     res.send({
       msg: '参数不对哦',
@@ -236,53 +230,81 @@ router.post('/add', upload.single('heroIcon'), function (req, res, next) {
     })
     return
   }
-  // res.send(req.body)
   fs.readFile(
     path.join(__dirname, '../data/cqSimple.json'),
     'utf-8',
     (err, data) => {
-      const cq = JSON.parse(data)
-
-      // 检查是否已经存在
-      const filterOne = cq.filter(v => {
-        return v.heroName == req.body.heroName
-      })
-      if (filterOne.length != 0) {
-        res.send({
-          msg: '该英雄已存在,请检查',
-          code: 400
+      try {
+        const cq = JSON.parse(data)
+        // 检查是否已经存在
+        const filterOne = cq.filter(v => {
+          return v.heroName == req.body.heroName
         })
-        return
-      }
-      cq.push({
-        heroIcon: `https://autumnfish.cn/api/cq/static/${req.file.filename}`,
-        ...req.body,
-        id: Date.now(),
-        skillName: req.body.heroSkill
-      })
-      // 保存
-      fs.writeFile(
-        path.join(__dirname, '../data/cqSimple.json'),
-        JSON.stringify(cq),
-        (err, data) => {
+        if (filterOne.length != 0) {
           res.send({
-            msg: '新增成功',
-            code: 201,
-            info: {
-              heroIcon: `https://autumnfish.cn/api/cq/static/${req.file.filename}`,
-              ...req.body
-            }
+            msg: '该英雄已存在,请检查',
+            code: 400
           })
+          return
         }
-      )
+        cq.push({
+          heroIcon: `https://autumnfish.cn/api/cq/static/${req.file.filename}`,
+          ...req.body,
+          id: Date.now(),
+          skillName: req.body.heroSkill
+        })
+        // 保存
+        fs.writeFile(
+          path.join(__dirname, '../data/cqSimple.json'),
+          JSON.stringify(cq),
+          (err, data) => {
+            res.send({
+              msg: '新增成功',
+              code: 201,
+              info: {
+                heroIcon: `https://autumnfish.cn/api/cq/static/${req.file.filename}`,
+                ...req.body
+              }
+            })
+          }
+        )
+      } catch (error) {
+        fs.readFile(
+          path.join(__dirname, '../data/_cqSimple.json'),
+          'utf-8',
+          (err, data) => {
+            if (!err) {
+              fs.writeFile(
+                path.join(__dirname, '../data/cqSimple.json'),
+                data,
+                err => {
+                  if (!err) {
+                    try {
+                      const res = fs.readdirSync(
+                        path.join(__dirname, '../uploads')
+                      )
+                      res.forEach(v => {
+                        fs.unlinkSync(path.join(__dirname, `../uploads/${v}`))
+                      })
+                    } catch (error) {}
+                    res.send({
+                      code: 200,
+                      msg: '服务器数据异常,已重置'
+                    })
+                  } else {
+                    res.send({
+                      code: 500,
+                      msg: '服务器内部错误'
+                    })
+                  }
+                }
+              )
+            }
+          }
+        )
+      }
     }
   )
-  // res.send(req.file)
-  // res.send({
-  //   msg:'新增成功',
-  //   code:201,
-  //   url:`localhost:8888/cq/static/${req.file.filename}`
-  // })
 })
 
 router.delete('/:id', (req, res) => {
