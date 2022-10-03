@@ -116,13 +116,13 @@ router.get('/page', (req, res) => {
         .reverse()
         .filter(v => {
           // console.log(v);
-          if (!v.skillName) {
-            console.log(v)
-          }
+          // if (!v.skillName) {
+          //   console.log(v)
+          // }
           try {
             return (
-              v.heroName.indexOf(query) != -1 ||
-              v.skillName.indexOf(query) != -1
+              v.heroName?.indexOf(query) != -1 ||
+              v.skillName?.indexOf(query) != -1
             )
           } catch (error) {
             return false
