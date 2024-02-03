@@ -32,7 +32,7 @@
 
 > 随机获取笑话的接口
 
-- 请求地址：https://autumnfish.cn/api/joke
+- 请求地址：https://api-vue-base.itheima.net/api/joke
 - 请求方法：get
 - 请求参数：无
 - 响应内容：随机笑话
@@ -41,7 +41,7 @@
 
 > 随机获取笑话的接口
 
-- 请求地址：https://autumnfish.cn/api/joke/list
+- 请求地址：https://api-vue-base.itheima.net/api/joke/list
 - 请求方法：get
 - 请求参数：num
 
@@ -79,7 +79,7 @@
 
 > 测试`form`表单`get`提交数据
 
-- 请求地址：https://autumnfish.cn/api/form/submit
+- 请求地址：https://api-vue-base.itheima.net/api/form/submit
 - 请求方法：get
 - 请求参数：任意
 
@@ -91,7 +91,7 @@
 
 > 测试`form`表单`post`提交数据
 
-- 请求地址：https://autumnfish.cn/api/form/submit
+- 请求地址：https://api-vue-base.itheima.net/api/form/submit
 - 请求方法：post
 - 请求参数：任意
 
@@ -103,7 +103,7 @@
 
 > 测试`FormData`上传文件
 
-- 请求地址：https://autumnfish.cn/api/form/upload
+- 请求地址：https://api-vue-base.itheima.net/api/form/upload
 
 - 请求方法：post
 
@@ -130,7 +130,7 @@
 
 > 测试`FormData`提交数据
 
-- 请求地址：https://autumnfish.cn/api/form/formdata
+- 请求地址：https://api-vue-base.itheima.net/api/form/formdata
 
 - 请求方法：`post`
 
@@ -153,7 +153,7 @@
 
 > 测试`application/json`提交数据
 
-- 请求地址：https://autumnfish.cn/api/form/json
+- 请求地址：https://api-vue-base.itheima.net/api/form/json
 
 - 请求方法：`post`
 
@@ -174,7 +174,7 @@
 
 > 测试`application/x-www-form-urlencoded`提交数据
 
-- 请求地址：https://autumnfish.cn/api/form/urlencoded
+- 请求地址：https://api-vue-base.itheima.net/api/form/urlencoded
 
 - 请求方法：`post`
 
@@ -199,7 +199,7 @@
 
 > 验证用户名是否可用
 
-- 请求地址：https://autumnfish.cn/api/user/check
+- 请求地址：https://api-vue-base.itheima.net/api/user/check
 - 请求方法：post
 - 请求参数：username
 
@@ -215,7 +215,7 @@
 
 > 注册用户
 
-- 请求地址：https://autumnfish.cn/api/user/register
+- 请求地址：https://api-vue-base.itheima.net/api/user/register
 - 请求方法：post
 - 请求参数：username
 
@@ -231,7 +231,7 @@
 
 > 注册用户,可以用来测试 axios
 
-- 请求地址：https://autumnfish.cn/api/user/reg
+- 请求地址：https://api-vue-base.itheima.net/api/user/reg
 - 请求方法：post
 - 请求参数：username
 
@@ -247,8 +247,8 @@
 
 > 根据英雄 姓名 查询英雄的 外号
 
-- 请求地址：https://autumnfish.cn/api/hero/simple
-  - 示例：https://autumnfish.cn/api/hero/simple?name=提莫
+- 请求地址：https://api-vue-base.itheima.net/api/hero/simple
+  - 示例：https://api-vue-base.itheima.net/api/hero/simple?name=提莫
 - 请求方法：get
 - 请求参数：name
 
@@ -262,8 +262,8 @@
 
 > 根据英雄 姓名 查询英雄的简略信息
 
-- 请求地址：https://autumnfish.cn/api/hero/info
-  - 示例：https://autumnfish.cn/api/hero/info?name=提莫
+- 请求地址：https://api-vue-base.itheima.net/api/hero/info
+  - 示例：https://api-vue-base.itheima.net/api/hero/info?name=提莫
 - 请求方法：get
 - 请求参数：name
 
@@ -287,8 +287,8 @@
 
 > 根据英雄 姓名 查询英雄的 详细信息
 
-- 请求地址：https://autumnfish.cn/api/hero/detail
-  - 示例：https://autumnfish.cn/api/hero/detail?name=提莫
+- 请求地址：https://api-vue-base.itheima.net/api/hero/detail
+  - 示例：https://api-vue-base.itheima.net/api/hero/detail?name=提莫
 - 请求方法：get
 - 请求参数：name
 
@@ -341,7 +341,7 @@
 
 > 查询英雄的 详细信息
 
-- 请求地址：https://autumnfish.cn/api/cq
+- 请求地址：https://api-vue-base.itheima.net/api/cq
 - 请求方法：get
 - 请求参数：query
 
@@ -393,7 +393,7 @@
 
 > 查询英雄的 详细信息
 
-- 请求地址：https://autumnfish.cn/api/cq/page
+- 请求地址：https://api-vue-base.itheima.net/api/cq/page
 - 请求方法：get
 - 请求参数：query,pageNum,pageSize
 
@@ -423,7 +423,7 @@
 
 > 查询英雄的 详细信息
 
-- 请求地址：https://autumnfish.cn/api/cq/category
+- 请求地址：https://api-vue-base.itheima.net/api/cq/category
 - 请求方法：get
 - 请求参数：type
 
@@ -455,7 +455,7 @@
 
 > 查询英雄的 详细信息
 
-- 请求地址：https://autumnfish.cn/api/cq/gif
+- 请求地址：https://api-vue-base.itheima.net/api/cq/gif
 - 请求方法：get
 - 请求参数：name
 
@@ -480,7 +480,7 @@
 
 > 查询英雄的 详细信息
 
-- 请求地址：https://autumnfish.cn/api/cq/add
+- 请求地址：https://api-vue-base.itheima.net/api/cq/add
 - 请求方法：post
 - 请求参数：heroName,heroSkill,skillName
 
@@ -497,7 +497,7 @@
   "msg": "新增成功",
   "code": 201,
   "info": {
-    "heroIcon": "https://autumnfish.cn/api/cq/static/5f89c6f2c695d7126d2768bda47fd7e9",
+    "heroIcon": "https://api-vue-base.itheima.net/api/cq/static/5f89c6f2c695d7126d2768bda47fd7e9",
     "heroName": "超级舞王",
     "skillName": "跳舞"
   }
@@ -507,10 +507,10 @@
 
 > 根据id删除英雄 
 
-- 请求地址：https://autumnfish.cn/api/cq/:id
+- 请求地址：https://api-vue-base.itheima.net/api/cq/:id
 - 请求方法：delete
 - 请求参数：id
-- 请求示例: https://autumnfish.cn/api/cq/998
+- 请求示例: https://api-vue-base.itheima.net/api/cq/998
 
 | 参数名    | 参数说明 | 备注     |
 | :-------- | :------- | :------- |
@@ -585,7 +585,7 @@
 
 > 查询 lol 英雄列表
 
-- 请求地址：https://autumnfish.cn/api/lol/search
+- 请求地址：https://api-vue-base.itheima.net/api/lol/search
 - 请求方法：get
 - 请求参数：q
 
@@ -631,7 +631,7 @@
 
 > 查询 lol 英雄详情
 
-- 请求地址：https://autumnfish.cn/api/lol/info
+- 请求地址：https://api-vue-base.itheima.net/api/lol/info
 - 请求方法：get
 - 请求参数：id
 
@@ -657,7 +657,7 @@
 
 > 查询 lol 英雄详情
 
-- 请求地址：https://autumnfish.cn/api/lol/weapon
+- 请求地址：https://api-vue-base.itheima.net/api/lol/weapon
 - 请求方法：get
 - 请求参数：q
 
@@ -679,7 +679,7 @@
 
 返回所有忍者数据
 
-- 请求地址:https://autumnfish.cn/api/ninja/search
+- 请求地址:https://api-vue-base.itheima.net/api/ninja/search
 - 请求方法：get
 - 请求参数：无
 
@@ -702,7 +702,7 @@
 
 返回随机的 lol 英雄皮肤
 
-- 请求地址:https://autumnfish.cn/api/cover/random
+- 请求地址:https://api-vue-base.itheima.net/api/cover/random
 - 请求方法：get
 - 请求参数：无
 
@@ -791,7 +791,7 @@
 
 ## 获取 xml 格式菜单
 
-- 请求地址：https://autumnfish.cn/api/food.xml
+- 请求地址：https://api-vue-base.itheima.net/api/food.xml
 
 - 请求方法：get
 - 请求参数：无
